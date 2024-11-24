@@ -1,0 +1,108 @@
+,groupID,groupName
+4,25,Frigate
+88,26,Cruiser
+139,27,Battleship
+209,28,Hauler
+231,29,Capsule
+233,30,Titan
+241,324,Assault Frigate
+261,419,Combat Battlecruiser
+287,420,Destroyer
+314,540,Command Ship
+322,541,Interdictor
+326,543,Exhumer
+330,547,Carrier
+335,548,Interdiction Probe
+338,553,Asteroid Angel Cartel Officer
+342,559,Asteroid Blood Raiders Officer
+346,564,Asteroid Guristas Officer
+350,569,Asteroid Sansha's Nation Officer
+354,574,Asteroid Serpentis Officer
+358,789,Asteroid Angel Cartel Commander Frigate
+379,790,Asteroid Angel Cartel Commander Cruiser
+389,791,Asteroid Blood Raiders Commander Cruiser
+399,792,Asteroid Blood Raiders Commander Frigate
+415,793,Asteroid Angel Cartel Commander BattleCruiser
+421,794,Asteroid Angel Cartel Commander Destroyer
+427,795,Asteroid Blood Raiders Commander BattleCruiser
+433,796,Asteroid Blood Raiders Commander Destroyer
+439,797,Asteroid Guristas Commander BattleCruiser
+445,798,Asteroid Guristas Commander Cruiser
+460,799,Asteroid Guristas Commander Destroyer
+468,800,Asteroid Guristas Commander Frigate
+488,807,Asteroid Sansha's Nation Commander BattleCruiser
+494,808,Asteroid Sansha's Nation Commander Cruiser
+504,809,Asteroid Sansha's Nation Commander Destroyer
+510,810,Asteroid Sansha's Nation Commander Frigate
+520,811,Asteroid Serpentis Commander BattleCruiser
+526,812,Asteroid Serpentis Commander Cruiser
+536,813,Asteroid Serpentis Commander Destroyer
+542,814,Asteroid Serpentis Commander Frigate
+560,843,Asteroid Rogue Drone Commander BattleCruiser
+566,844,Asteroid Rogue Drone Commander Battleship
+576,845,Asteroid Rogue Drone Commander Cruiser
+586,846,Asteroid Rogue Drone Commander Destroyer
+592,847,Asteroid Rogue Drone Commander Frigate
+602,848,Asteroid Angel Cartel Commander Battleship
+612,849,Asteroid Blood Raiders Commander Battleship
+622,850,Asteroid Guristas Commander Battleship
+632,851,Asteroid Sansha's Nation Commander Battleship
+642,852,Asteroid Serpentis Commander Battleship
+652,883,Capital Industrial Ship
+654,893,Electronic Attack Ship
+659,894,Heavy Interdiction Cruiser
+665,898,Black Ops
+671,900,Marauder
+689,906,Combat Recon Ship
+693,963,Strategic Cruiser
+697,1174,Asteroid Rogue Drone Officer
+701,1283,Expedition Frigate
+703,1285,Asteroid Mordus Legion Commander Frigate
+704,1286,Asteroid Mordus Legion Commander Cruiser
+705,1287,Asteroid Mordus Legion Commander Battleship
+706,1305,Tactical Destroyer
+710,1310,Drifter Battleship
+713,1530,Drifter Response Battleship
+714,1534,Command Destroyer
+719,1537,Support Fighter
+732,1538,Force Auxiliary
+739,1652,Light Fighter
+765,1653,Heavy Fighter
+784,1657,Citadel
+793,1681,Asteroid Angel Cartel Dreadnought
+795,1682,Asteroid Angel Cartel Titan
+796,1683,Asteroid Blood Raider Dreadnought
+798,1684,Asteroid Blood Raider Titan
+799,1685,Asteroid Guristas Dreadnought
+801,1686,Asteroid Guristas Titan
+802,1687,Asteroid Sansha's Nation Dreadnought
+804,1688,Asteroid Sansha's Nation Supercarrier
+805,1689,Asteroid Serpentis Dreadnought
+807,1690,Asteroid Serpentis Titan
+808,1691,Asteroid Rogue Drone Carrier
+810,1692,Asteroid Rogue Drone Supercarrier
+811,1764,♦ Mining Frigate
+812,1765,♦ Mining Barge
+813,1766,♦ Mining Exhumer
+815,1767,♦ Mining Hauler
+829,1803,♦ Frigate
+896,1813,♦ Cruiser
+944,1814,♦ Battleship
+982,1876,♦ Engineering Complex
+983,1878,♦ Titan
+985,1879,♦ Force Auxiliary
+986,1880,♦ Dreadnought
+995,1896,♦ Industrial Command
+1003,1909,♦ Battlecruiser
+1007,1924,♦ Stronghold
+1013,1972,Flag Cruiser
+1014,4795,Asteroid Angel Cartel Officer Cruiser
+1015,4796,Asteroid Angel Cartel Officer Frigate
+1016,4797,Asteroid Blood Raiders Officer Cruiser
+1017,4798,Asteroid Blood Raiders Officer Frigate
+1018,4799,Asteroid Guristas Officer Cruiser
+1019,4800,Asteroid Guristas Officer Frigate
+1020,4801,Asteroid Sansha's Nation Officer Cruiser
+1021,4802,Asteroid Sansha's Nation Officer Frigate
+1022,4803,Asteroid Serpentis Officer Cruiser
+1023,4804,Asteroid Serpentis Officer Frigate

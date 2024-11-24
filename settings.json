@@ -1,0 +1,9 @@
+{
+    "prefix": "!",
+    "activity": [
+        {"listen":"Beep boop"}
+    ],
+    "embed_color":"0x4b19bf",
+    "error_report_channel_id": "0",
+    "killfeed_channels": { } 
+}

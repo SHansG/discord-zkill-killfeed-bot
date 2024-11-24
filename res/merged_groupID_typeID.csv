@@ -1,0 +1,1022 @@
+,groupID,groupName,typeID,typeName
+0,0, No Group,0,No Ship
+4,25,Frigate,582,Bantam
+5,25,Frigate,583,Condor
+6,25,Frigate,584,Griffin
+7,25,Frigate,585,Slasher
+8,25,Frigate,586,Probe
+9,25,Frigate,587,Rifter
+10,25,Frigate,589,Executioner
+11,25,Frigate,590,Inquisitor
+12,25,Frigate,591,Tormentor
+13,25,Frigate,592,Navitas
+14,25,Frigate,593,Tristan
+15,25,Frigate,594,Incursus
+16,25,Frigate,595,Gallente Police Ship
+17,25,Frigate,597,Punisher
+18,25,Frigate,598,Breacher
+19,25,Frigate,599,Burst
+20,25,Frigate,600,Minmatar Peacekeeper Ship
+21,25,Frigate,602,Kestrel
+22,25,Frigate,603,Merlin
+23,25,Frigate,605,Heron
+24,25,Frigate,607,Imicus
+25,25,Frigate,608,Atron
+26,25,Frigate,609,Maulus
+27,25,Frigate,613,Devourer
+28,25,Frigate,614,Fury
+29,25,Frigate,616,Medusa
+30,25,Frigate,618,Lynx
+31,25,Frigate,619,Swordspine
+32,25,Frigate,1896,Concord Police Frigate
+33,25,Frigate,1898,Concord SWAT Frigate
+34,25,Frigate,1900,Concord Army Frigate
+35,25,Frigate,1902,Concord Special Ops Frigate
+36,25,Frigate,2161,Crucifier
+37,25,Frigate,3532,Echelon
+38,25,Frigate,3751,SOCT 1
+39,25,Frigate,3753,SOCT 2
+40,25,Frigate,3766,Vigil
+41,25,Frigate,3768,Amarr Police Frigate
+42,25,Frigate,11019,Cockroach
+43,25,Frigate,11940,Gold Magnate
+44,25,Frigate,11942,Silver Magnate
+45,25,Frigate,17360,Immovable Enigma
+46,25,Frigate,17619,Caldari Navy Hookbill
+47,25,Frigate,17703,Imperial Navy Slicer
+48,25,Frigate,17705,Khanid Navy Frigate
+49,25,Frigate,17707,Mordus Frigate
+50,25,Frigate,17812,Republic Fleet Firetail
+51,25,Frigate,17841,Federation Navy Comet
+52,25,Frigate,17924,Succubus
+53,25,Frigate,17926,Cruor
+54,25,Frigate,17928,Daredevil
+55,25,Frigate,17930,Worm
+56,25,Frigate,17932,Dramiel
+57,25,Frigate,29248,Magnate
+58,25,Frigate,32880,Venture
+59,25,Frigate,32983,Sukuuvestaa Heron
+60,25,Frigate,32985,Inner Zone Shipping Imicus
+61,25,Frigate,32987,Sarum Magnate
+62,25,Frigate,32989,Vherokior Probe
+63,25,Frigate,33190,Tash-Murkon Magnate
+64,25,Frigate,33468,Astero
+65,25,Frigate,33655,Punisher Kador Edition
+66,25,Frigate,33657,Punisher Tash-Murkon Edition
+67,25,Frigate,33659,Merlin Nugoeihuvi Edition
+68,25,Frigate,33661,Merlin Wiyrkomi Edition
+69,25,Frigate,33663,Rifter Nefantar Edition
+70,25,Frigate,33665,Rifter Krusual Edition
+71,25,Frigate,33667,Incursus Aliastra Edition
+72,25,Frigate,33669,Incursus Inner Zone Shipping Edition
+73,25,Frigate,33677,Police Pursuit Comet
+74,25,Frigate,33816,Garmur
+75,25,Frigate,34443,Tristan Quafe Edition
+76,25,Frigate,37453,Crucifier Navy Issue
+77,25,Frigate,37454,Vigil Fleet Issue
+78,25,Frigate,37455,Griffin Navy Issue
+79,25,Frigate,37456,Maulus Navy Issue
+80,25,Frigate,47269,Damavik
+81,25,Frigate,54731,Skybreaker
+82,25,Frigate,58745,AIR Civilian Astero
+83,25,Frigate,72903,Probe Fleet Issue
+84,25,Frigate,72904,Heron Navy Issue
+85,25,Frigate,72907,Magnate Navy Issue
+86,25,Frigate,72913,Imicus Navy Issue
+87,25,Frigate,77114,Metamorphosis
+88,26,Cruiser,620,Osprey
+89,26,Cruiser,621,Caracal
+90,26,Cruiser,622,Stabber
+91,26,Cruiser,623,Moa
+92,26,Cruiser,624,Maller
+93,26,Cruiser,625,Augoror
+94,26,Cruiser,626,Vexor
+95,26,Cruiser,627,Thorax
+96,26,Cruiser,628,Arbitrator
+97,26,Cruiser,629,Rupture
+98,26,Cruiser,630,Bellicose
+99,26,Cruiser,631,Scythe
+100,26,Cruiser,632,Blackbird
+101,26,Cruiser,633,Celestis
+102,26,Cruiser,634,Exequror
+103,26,Cruiser,635,Opux Luxury Yacht
+104,26,Cruiser,1904,Concord Police Cruiser
+105,26,Cruiser,2006,Omen
+106,26,Cruiser,11011,Guardian-Vexor
+107,26,Cruiser,17634,Caracal Navy Issue
+108,26,Cruiser,17709,Omen Navy Issue
+109,26,Cruiser,17713,Stabber Fleet Issue
+110,26,Cruiser,17715,Gila
+111,26,Cruiser,17718,Phantasm
+112,26,Cruiser,17720,Cynabal
+113,26,Cruiser,17722,Vigilant
+114,26,Cruiser,17843,Vexor Navy Issue
+115,26,Cruiser,17922,Ashimmu
+116,26,Cruiser,25560,Opux Dragoon Yacht
+117,26,Cruiser,29336,Scythe Fleet Issue
+118,26,Cruiser,29337,Augoror Navy Issue
+119,26,Cruiser,29340,Osprey Navy Issue
+120,26,Cruiser,29344,Exequror Navy Issue
+121,26,Cruiser,33470,Stratios
+122,26,Cruiser,33553,Stratios Emergency Responder
+123,26,Cruiser,33639,Omen Kador Edition
+124,26,Cruiser,33641,Omen Tash-Murkon Edition
+125,26,Cruiser,33643,Caracal Nugoeihuvi Edition
+126,26,Cruiser,33645,Caracal Wiyrkomi Edition
+127,26,Cruiser,33647,Stabber Nefantar Edition
+128,26,Cruiser,33649,Stabber Krusual Edition
+129,26,Cruiser,33651,Thorax Aliastra Edition
+130,26,Cruiser,33653,Thorax Inner Zone Shipping Edition
+131,26,Cruiser,33818,Orthrus
+132,26,Cruiser,34445,Vexor Quafe Edition
+133,26,Cruiser,34475,毒蜥级YC117年特别版
+134,26,Cruiser,34590,Victorieux Luxury Yacht
+135,26,Cruiser,47270,Vedmak
+136,26,Cruiser,49712,Rodiva
+137,26,Cruiser,52267,Test Site Maller
+138,26,Cruiser,54732,Stormbringer
+139,27,Battleship,638,Raven
+140,27,Battleship,639,Tempest
+141,27,Battleship,640,Scorpion
+142,27,Battleship,641,Megathron
+143,27,Battleship,642,Apocalypse
+144,27,Battleship,643,Armageddon
+145,27,Battleship,644,Typhoon
+146,27,Battleship,645,Dominix
+147,27,Battleship,1912,Concord Police Battleship
+148,27,Battleship,1914,Concord Special Ops Battleship
+149,27,Battleship,1916,Concord SWAT Battleship
+150,27,Battleship,1918,Concord Army Battleship
+151,27,Battleship,4005,Scorpion Ishukone Watch
+152,27,Battleship,11936,Apocalypse Imperial Issue
+153,27,Battleship,11938,Armageddon Imperial Issue
+154,27,Battleship,13202,Megathron Federate Issue
+155,27,Battleship,17636,Raven Navy Issue
+156,27,Battleship,17726,Apocalypse Navy Issue
+157,27,Battleship,17728,Megathron Navy Issue
+158,27,Battleship,17732,Tempest Fleet Issue
+159,27,Battleship,17736,Nightmare
+160,27,Battleship,17738,Machariel
+161,27,Battleship,17740,Vindicator
+162,27,Battleship,17918,Rattlesnake
+163,27,Battleship,17920,Bhaalgorn
+164,27,Battleship,24688,Rokh
+165,27,Battleship,24690,Hyperion
+166,27,Battleship,24692,Abaddon
+167,27,Battleship,24694,Maelstrom
+168,27,Battleship,26840,Raven State Issue
+169,27,Battleship,26842,Tempest Tribal Issue
+170,27,Battleship,32305,Armageddon Navy Issue
+171,27,Battleship,32307,Dominix Navy Issue
+172,27,Battleship,32309,Scorpion Navy Issue
+173,27,Battleship,32311,Typhoon Fleet Issue
+174,27,Battleship,33472,Nestor
+175,27,Battleship,33623,Abaddon Tash-Murkon Edition
+176,27,Battleship,33625,Abaddon Kador Edition
+177,27,Battleship,33627,Rokh Nugoeihuvi Edition
+178,27,Battleship,33629,Rokh Wiyrkomi Edition
+179,27,Battleship,33631,Maelstrom Nefantar Edition
+180,27,Battleship,33633,Maelstrom Krusual Edition
+181,27,Battleship,33635,Hyperion Aliastra Edition
+182,27,Battleship,33637,Hyperion Inner Zone Shipping Edition
+183,27,Battleship,33820,Barghest
+184,27,Battleship,34118,Megathron Quafe Edition
+185,27,Battleship,34151,Rattlesnake Victory Edition
+186,27,Battleship,34213,Apocalypse Blood Raider Edition
+187,27,Battleship,34215,Apocalypse Kador Edition
+188,27,Battleship,34217,Apocalypse Tash-Murkon Edition
+189,27,Battleship,34225,Raven Guristas Edition
+190,27,Battleship,34227,Raven Kaalakiota Edition
+191,27,Battleship,34229,Raven Nugoeihuvi Edition
+192,27,Battleship,34237,Megathron Police Edition
+193,27,Battleship,34239,Megathron Inner Zone Shipping Edition
+194,27,Battleship,34247,Tempest Justice Edition
+195,27,Battleship,34249,Tempest Krusual Edition
+196,27,Battleship,34251,Tempest Nefantar Edition
+197,27,Battleship,34441,Dominix Quafe Edition
+198,27,Battleship,34457,末日沙场级YC117年特别版
+199,27,Battleship,34459,地狱天使级YC117年特别版
+200,27,Battleship,34461,马克瑞级YC117年特别版
+201,27,Battleship,34463,响尾蛇级YC117年特别版
+202,27,Battleship,34465,多米尼克斯级YC117年特别版
+203,27,Battleship,34467,万王宝座级YC117年特别版
+204,27,Battleship,34469,乌鸦级YC117年特别版
+205,27,Battleship,34471,灾难级YC117年特别版
+206,27,Battleship,47271,Leshak
+207,27,Battleship,47466,Praxis
+208,27,Battleship,54733,Thunderchild
+209,28,Hauler,648,Badger
+210,28,Hauler,649,Tayra
+211,28,Hauler,650,Nereus
+212,28,Hauler,651,Hoarder
+213,28,Hauler,652,Mammoth
+214,28,Hauler,653,Wreathe
+215,28,Hauler,654,Kryos
+216,28,Hauler,655,Epithal
+217,28,Hauler,656,Miasmos
+218,28,Hauler,657,Iteron Mark V
+219,28,Hauler,1944,Bestower
+220,28,Hauler,2863,Primae
+221,28,Hauler,2998,Noctis
+222,28,Hauler,4363,Miasmos Quafe Ultra Edition
+223,28,Hauler,4388,Miasmos Quafe Ultramarine Edition
+224,28,Hauler,19744,Sigil
+225,28,Hauler,32811,Miasmos Amastris Edition
+226,28,Hauler,33689,Iteron Inner Zone Shipping Edition
+227,28,Hauler,33691,Tayra Wiyrkomi Edition
+228,28,Hauler,33693,Mammoth Nefantar Edition
+229,28,Hauler,33695,Bestower Tash-Murkon Edition
+230,28,Hauler,81008,Squall
+231,29,Capsule,670,Capsule
+232,29,Capsule,33328,Capsule - Genolution 'Auroral' 197-variant
+233,30,Titan,671,Erebus
+234,30,Titan,3764,Leviathan
+235,30,Titan,11567,Avatar
+236,30,Titan,23773,Ragnarok
+237,30,Titan,42126,Vanquisher
+238,30,Titan,42241,Molok
+239,30,Titan,45649,Komodo
+240,30,Titan,78576,Azariel
+241,324,Assault Frigate,2834,Utu
+242,324,Assault Frigate,3516,Malice
+243,324,Assault Frigate,11365,Vengeance
+244,324,Assault Frigate,11371,Wolf
+245,324,Assault Frigate,11373,Blade
+246,324,Assault Frigate,11375,Erinye
+247,324,Assault Frigate,11379,Hawk
+248,324,Assault Frigate,11381,Harpy
+249,324,Assault Frigate,11383,Gatherer
+250,324,Assault Frigate,11389,Kishar
+251,324,Assault Frigate,11393,Retribution
+252,324,Assault Frigate,11400,Jaguar
+253,324,Assault Frigate,12036,Dagger
+254,324,Assault Frigate,12042,Ishkur
+255,324,Assault Frigate,12044,Enyo
+256,324,Assault Frigate,32207,Freki
+257,324,Assault Frigate,32788,Cambion
+258,324,Assault Frigate,52250,Nergal
+259,324,Assault Frigate,74141,Geri
+260,324,Assault Frigate,78414,Shapash
+261,419,Combat Battlecruiser,3756,Gnosis
+262,419,Combat Battlecruiser,16227,Ferox
+263,419,Combat Battlecruiser,16229,Brutix
+264,419,Combat Battlecruiser,16231,Cyclone
+265,419,Combat Battlecruiser,16233,Prophecy
+266,419,Combat Battlecruiser,24696,Harbinger
+267,419,Combat Battlecruiser,24698,Drake
+268,419,Combat Battlecruiser,24700,Myrmidon
+269,419,Combat Battlecruiser,24702,Hurricane
+270,419,Combat Battlecruiser,33151,Brutix Navy Issue
+271,419,Combat Battlecruiser,33153,Drake Navy Issue
+272,419,Combat Battlecruiser,33155,Harbinger Navy Issue
+273,419,Combat Battlecruiser,33157,Hurricane Fleet Issue
+274,419,Combat Battlecruiser,33869,Brutix Serpentis Edition
+275,419,Combat Battlecruiser,33871,Cyclone Thukker Tribe Edition
+276,419,Combat Battlecruiser,33873,Ferox Guristas Edition
+277,419,Combat Battlecruiser,33875,Prophecy Blood Raiders Edition
+278,419,Combat Battlecruiser,34473,幼龙级YC117年特别版
+279,419,Combat Battlecruiser,49711,Drekavac
+280,419,Combat Battlecruiser,72811,Cyclone Fleet Issue
+281,419,Combat Battlecruiser,72812,Ferox Navy Issue
+282,419,Combat Battlecruiser,72869,Myrmidon Navy Issue
+283,419,Combat Battlecruiser,72872,Prophecy Navy Issue
+284,419,Combat Battlecruiser,78366,Alligator
+285,419,Combat Battlecruiser,78369,Khizriel
+286,419,Combat Battlecruiser,85086,Cenotaph
+287,420,Destroyer,16236,Coercer
+288,420,Destroyer,16238,Cormorant
+289,420,Destroyer,16240,Catalyst
+290,420,Destroyer,16242,Thrasher
+291,420,Destroyer,32840,InterBus Catalyst
+292,420,Destroyer,32842,Intaki Syndicate Catalyst
+293,420,Destroyer,32844,Inner Zone Shipping Catalyst
+294,420,Destroyer,32846,Quafe Catalyst
+295,420,Destroyer,32848,Aliastra Catalyst
+296,420,Destroyer,32872,Algos
+297,420,Destroyer,32874,Dragoon
+298,420,Destroyer,32876,Corax
+299,420,Destroyer,32878,Talwar
+300,420,Destroyer,33099,Nefantar Thrasher
+301,420,Destroyer,33877,Catalyst Serpentis Edition
+302,420,Destroyer,33879,Coercer Blood Raiders Edition
+303,420,Destroyer,33881,Cormorant Guristas Edition
+304,420,Destroyer,33883,Thrasher Thukker Tribe Edition
+305,420,Destroyer,42685,Sunesis
+306,420,Destroyer,49710,Kikimora
+307,420,Destroyer,73789,Coercer Navy Issue
+308,420,Destroyer,73794,Thrasher Fleet Issue
+309,420,Destroyer,73795,Cormorant Navy Issue
+310,420,Destroyer,73796,Catalyst Navy Issue
+311,420,Destroyer,78333,Mekubal
+312,420,Destroyer,78367,Mamba
+313,420,Destroyer,85087,Tholos
+314,540,Command Ship,22442,Eos
+315,540,Command Ship,22444,Sleipnir
+316,540,Command Ship,22446,Vulture
+317,540,Command Ship,22448,Absolution
+318,540,Command Ship,22466,Astarte
+319,540,Command Ship,22468,Claymore
+320,540,Command Ship,22470,Nighthawk
+321,540,Command Ship,22474,Damnation
+322,541,Interdictor,22452,Heretic
+323,541,Interdictor,22456,Sabre
+324,541,Interdictor,22460,Eris
+325,541,Interdictor,22464,Flycatcher
+326,543,Exhumer,22544,Hulk
+327,543,Exhumer,22546,Skiff
+328,543,Exhumer,22548,Mackinaw
+329,543,Exhumer,33683,Mackinaw ORE Development Edition
+330,547,Carrier,23757,Archon
+331,547,Carrier,23911,Thanatos
+332,547,Carrier,23915,Chimera
+333,547,Carrier,24483,Nidhoggur
+334,547,Carrier,42132,Vanguard
+335,548,Interdiction Probe,22778,Warp Disrupt Probe
+336,548,Interdiction Probe,34260,Surgical Warp Disrupt Probe
+337,548,Interdiction Probe,41402,Phobetor Warp Disrupt Probe
+338,553,Asteroid Angel Cartel Officer,13536,Mizuro Cybon
+339,553,Asteroid Angel Cartel Officer,13538,Hakim Stormare
+340,553,Asteroid Angel Cartel Officer,13541,Gotan Kreiss
+341,553,Asteroid Angel Cartel Officer,13544,Tobias Kruzhor
+342,559,Asteroid Blood Raiders Officer,13557,Raysere Giant
+343,559,Asteroid Blood Raiders Officer,13561,Ahremen Arkah
+344,559,Asteroid Blood Raiders Officer,13564,Draclira Merlonne
+345,559,Asteroid Blood Raiders Officer,13573,Tairei Namazoth
+346,564,Asteroid Guristas Officer,13580,Vepas Minimala
+347,564,Asteroid Guristas Officer,13584,Thon Eney
+348,564,Asteroid Guristas Officer,13589,Kaikka Peunato
+349,564,Asteroid Guristas Officer,13603,Estamel Tharchon
+350,569,Asteroid Sansha's Nation Officer,13609,Brokara Ryver
+351,569,Asteroid Sansha's Nation Officer,13615,Selynne Mardakar
+352,569,Asteroid Sansha's Nation Officer,13622,Vizan Ankonin
+353,569,Asteroid Sansha's Nation Officer,13635,Chelm Soran
+354,574,Asteroid Serpentis Officer,13654,Cormack Vaaja
+355,574,Asteroid Serpentis Officer,13659,Tuvan Orth
+356,574,Asteroid Serpentis Officer,13661,Brynn Jerdola
+357,574,Asteroid Serpentis Officer,13667,Setele Schellan
+358,789,Asteroid Angel Cartel Commander Frigate,13515,Domination Hijacker
+359,789,Asteroid Angel Cartel Commander Frigate,13516,Domination Rogue
+360,789,Asteroid Angel Cartel Commander Frigate,13517,Domination Outlaw
+361,789,Asteroid Angel Cartel Commander Frigate,13518,Domination Thug
+362,789,Asteroid Angel Cartel Commander Frigate,13519,Domination Ambusher
+363,789,Asteroid Angel Cartel Commander Frigate,13521,Domination Hunter
+364,789,Asteroid Angel Cartel Commander Frigate,13522,Domination Impaler
+365,789,Asteroid Angel Cartel Commander Frigate,13525,Domination Nomad
+366,789,Asteroid Angel Cartel Commander Frigate,13527,Domination Raider
+367,789,Asteroid Angel Cartel Commander Frigate,13528,Domination Ruffian
+368,789,Asteroid Angel Cartel Commander Frigate,22015,Psycho Hijacker
+369,789,Asteroid Angel Cartel Commander Frigate,22016,Psycho Rogue
+370,789,Asteroid Angel Cartel Commander Frigate,22017,Psycho Outlaw
+371,789,Asteroid Angel Cartel Commander Frigate,22018,Psycho Thug
+372,789,Asteroid Angel Cartel Commander Frigate,22019,Psycho Ruffian
+373,789,Asteroid Angel Cartel Commander Frigate,22020,Psycho Nomad
+374,789,Asteroid Angel Cartel Commander Frigate,22021,Psycho Ambusher
+375,789,Asteroid Angel Cartel Commander Frigate,22022,Psycho Raider
+376,789,Asteroid Angel Cartel Commander Frigate,22023,Psycho Hunter
+377,789,Asteroid Angel Cartel Commander Frigate,22024,Psycho Impaler
+378,789,Asteroid Angel Cartel Commander Frigate,26973,Domination Wang Chunger
+379,790,Asteroid Angel Cartel Commander Cruiser,13520,Domination Depredator
+380,790,Asteroid Angel Cartel Commander Cruiser,13523,Domination Crusher
+381,790,Asteroid Angel Cartel Commander Cruiser,13524,Domination Smasher
+382,790,Asteroid Angel Cartel Commander Cruiser,13526,Domination Predator
+383,790,Asteroid Angel Cartel Commander Cruiser,13529,Domination Breaker
+384,790,Asteroid Angel Cartel Commander Cruiser,13530,Domination Defeater
+385,790,Asteroid Angel Cartel Commander Cruiser,13531,Domination Marauder
+386,790,Asteroid Angel Cartel Commander Cruiser,13532,Domination Phalanx
+387,790,Asteroid Angel Cartel Commander Cruiser,13533,Domination Liquidator
+388,790,Asteroid Angel Cartel Commander Cruiser,13534,Domination Centurion
+389,791,Asteroid Blood Raiders Commander Cruiser,13547,Dark Blood Arch Engraver
+390,791,Asteroid Blood Raiders Commander Cruiser,13548,Dark Blood Arch Priest
+391,791,Asteroid Blood Raiders Commander Cruiser,13549,Dark Blood Dark Priest
+392,791,Asteroid Blood Raiders Commander Cruiser,13550,Dark Blood Arch Reaver
+393,791,Asteroid Blood Raiders Commander Cruiser,13551,Dark Blood Arch Sage
+394,791,Asteroid Blood Raiders Commander Cruiser,13552,Dark Blood Shadow Sage
+395,791,Asteroid Blood Raiders Commander Cruiser,13553,Dark Blood Arch Templar
+396,791,Asteroid Blood Raiders Commander Cruiser,13565,Dark Blood Priest
+397,791,Asteroid Blood Raiders Commander Cruiser,13569,Dark Blood Revenant
+398,791,Asteroid Blood Raiders Commander Cruiser,13570,Dark Blood Sage
+399,792,Asteroid Blood Raiders Commander Frigate,13545,Dark Blood Reaver
+400,792,Asteroid Blood Raiders Commander Frigate,13546,Dark Blood Follower
+401,792,Asteroid Blood Raiders Commander Frigate,13554,Dark Blood Diviner
+402,792,Asteroid Blood Raiders Commander Frigate,13555,Dark Blood Upholder
+403,792,Asteroid Blood Raiders Commander Frigate,13558,Dark Blood Collector
+404,792,Asteroid Blood Raiders Commander Frigate,13566,Dark Blood Raider
+405,792,Asteroid Blood Raiders Commander Frigate,13567,Dark Blood Herald
+406,792,Asteroid Blood Raiders Commander Frigate,13568,Dark Blood Seeker
+407,792,Asteroid Blood Raiders Commander Frigate,13571,Dark Blood Worshipper
+408,792,Asteroid Blood Raiders Commander Frigate,13574,Dark Blood Engraver
+409,792,Asteroid Blood Raiders Commander Frigate,24390,Sellsword Collector
+410,792,Asteroid Blood Raiders Commander Frigate,24391,Sellsword Raider
+411,792,Asteroid Blood Raiders Commander Frigate,24392,Sellsword Diviner
+412,792,Asteroid Blood Raiders Commander Frigate,24393,Sellsword Reaver
+413,792,Asteroid Blood Raiders Commander Frigate,24394,Sellsword Engraver
+414,792,Asteroid Blood Raiders Commander Frigate,24408,Sellsword Seeker
+415,793,Asteroid Angel Cartel Commander BattleCruiser,22865,Domination Legionnaire
+416,793,Asteroid Angel Cartel Commander BattleCruiser,22866,Domination Primus
+417,793,Asteroid Angel Cartel Commander BattleCruiser,22867,Domination Tribuni
+418,793,Asteroid Angel Cartel Commander BattleCruiser,22868,Domination Praefectus
+419,793,Asteroid Angel Cartel Commander BattleCruiser,22869,Domination Tribunus
+420,793,Asteroid Angel Cartel Commander BattleCruiser,22870,Domination Legatus
+421,794,Asteroid Angel Cartel Commander Destroyer,22857,Domination Shatterer
+422,794,Asteroid Angel Cartel Commander Destroyer,22858,Domination Defacer
+423,794,Asteroid Angel Cartel Commander Destroyer,22859,Domination Haunter
+424,794,Asteroid Angel Cartel Commander Destroyer,22860,Domination Defiler
+425,794,Asteroid Angel Cartel Commander Destroyer,22861,Domination Seizer
+426,794,Asteroid Angel Cartel Commander Destroyer,22862,Domination Trasher
+427,795,Asteroid Blood Raiders Commander BattleCruiser,23293,Dark Blood Bishop
+428,795,Asteroid Blood Raiders Commander BattleCruiser,23294,Dark Blood Seer
+429,795,Asteroid Blood Raiders Commander BattleCruiser,23295,Dark Blood Shade
+430,795,Asteroid Blood Raiders Commander BattleCruiser,23296,Dark Blood Fanatic
+431,795,Asteroid Blood Raiders Commander BattleCruiser,23297,Dark Blood Phantom
+432,795,Asteroid Blood Raiders Commander BattleCruiser,23298,Dark Blood Exorcist
+433,796,Asteroid Blood Raiders Commander Destroyer,23287,Dark Blood Visionary
+434,796,Asteroid Blood Raiders Commander Destroyer,23288,Dark Blood Converter
+435,796,Asteroid Blood Raiders Commander Destroyer,23289,Dark Blood Templar
+436,796,Asteroid Blood Raiders Commander Destroyer,23290,Dark Blood Devoter
+437,796,Asteroid Blood Raiders Commander Destroyer,23291,Dark Blood Friar
+438,796,Asteroid Blood Raiders Commander Destroyer,23292,Dark Blood Cleric
+439,797,Asteroid Guristas Commander BattleCruiser,23349,Dread Guristas Executor
+440,797,Asteroid Guristas Commander BattleCruiser,23350,Dread Guristas Enforcer
+441,797,Asteroid Guristas Commander BattleCruiser,23351,Dread Guristas Assaulter
+442,797,Asteroid Guristas Commander BattleCruiser,23352,Dread Guristas Assassin
+443,797,Asteroid Guristas Commander BattleCruiser,23353,Dread Guristas Death Dealer
+444,797,Asteroid Guristas Commander BattleCruiser,23354,Dread Guristas Revolter
+445,798,Asteroid Guristas Commander Cruiser,13575,Dread Guristas Killer
+446,798,Asteroid Guristas Commander Cruiser,13577,Dread Guristas Ascriber
+447,798,Asteroid Guristas Commander Cruiser,13586,Dread Guristas Inferno
+448,798,Asteroid Guristas Commander Cruiser,13587,Dread Guristas Abolisher
+449,798,Asteroid Guristas Commander Cruiser,13591,Dread Guristas Mortifier
+450,798,Asteroid Guristas Commander Cruiser,13592,Dread Guristas Eraser
+451,798,Asteroid Guristas Commander Cruiser,13595,Dread Guristas Nullifier
+452,798,Asteroid Guristas Commander Cruiser,13596,Dread Guristas Murderer
+453,798,Asteroid Guristas Commander Cruiser,13599,Dread Guristas Annihilator
+454,798,Asteroid Guristas Commander Cruiser,13600,Dread Guristas Silencer
+455,798,Asteroid Guristas Commander Cruiser,21998,Deuce Silencer
+456,798,Asteroid Guristas Commander Cruiser,21999,Deuce Ascriber
+457,798,Asteroid Guristas Commander Cruiser,22000,Deuce Killer
+458,798,Asteroid Guristas Commander Cruiser,23939,Deuce Murderer
+459,798,Asteroid Guristas Commander Cruiser,26871,Dini Mator
+460,799,Asteroid Guristas Commander Destroyer,23343,Dread Guristas Nihilist
+461,799,Asteroid Guristas Commander Destroyer,23344,Dread Guristas Anarchist
+462,799,Asteroid Guristas Commander Destroyer,23345,Dread Guristas Renegade
+463,799,Asteroid Guristas Commander Destroyer,23346,Dread Guristas Guerilla
+464,799,Asteroid Guristas Commander Destroyer,23347,Dread Guristas Terrorist
+465,799,Asteroid Guristas Commander Destroyer,23348,Dread Guristas Supremacist
+466,799,Asteroid Guristas Commander Destroyer,23942,Desperado Nihilist
+467,799,Asteroid Guristas Commander Destroyer,23943,Desperado Anarchist
+468,800,Asteroid Guristas Commander Frigate,13576,Dread Guristas Arrogator
+469,800,Asteroid Guristas Commander Frigate,13581,Dread Guristas Demolisher
+470,800,Asteroid Guristas Commander Frigate,13582,Dread Guristas Despoiler
+471,800,Asteroid Guristas Commander Frigate,13585,Dread Guristas Destructor
+472,800,Asteroid Guristas Commander Frigate,13590,Dread Guristas Imputor
+473,800,Asteroid Guristas Commander Frigate,13593,Dread Guristas Infiltrator
+474,800,Asteroid Guristas Commander Frigate,13594,Dread Guristas Invader
+475,800,Asteroid Guristas Commander Frigate,13597,Dread Guristas Plunderer
+476,800,Asteroid Guristas Commander Frigate,13598,Dread Guristas Saboteur
+477,800,Asteroid Guristas Commander Frigate,13604,Dread Guristas Wrecker
+478,800,Asteroid Guristas Commander Frigate,21988,Ace Arrogator
+479,800,Asteroid Guristas Commander Frigate,21989,Ace Imputor
+480,800,Asteroid Guristas Commander Frigate,21990,Ace Infiltrator
+481,800,Asteroid Guristas Commander Frigate,21991,Ace Invader
+482,800,Asteroid Guristas Commander Frigate,21992,Ace Despoiler
+483,800,Asteroid Guristas Commander Frigate,21993,Ace Saboteur
+484,800,Asteroid Guristas Commander Frigate,21994,Ace Plunderer
+485,800,Asteroid Guristas Commander Frigate,21995,Ace Wrecker
+486,800,Asteroid Guristas Commander Frigate,21996,Ace Destructor
+487,800,Asteroid Guristas Commander Frigate,21997,Ace Demolisher
+488,807,Asteroid Sansha's Nation Commander BattleCruiser,23394,True Sansha's Phantasm
+489,807,Asteroid Sansha's Nation Commander BattleCruiser,23395,True Sansha's Specter
+490,807,Asteroid Sansha's Nation Commander BattleCruiser,23396,True Sansha's Wraith
+491,807,Asteroid Sansha's Nation Commander BattleCruiser,23397,True Sansha's Devil
+492,807,Asteroid Sansha's Nation Commander BattleCruiser,23398,True Sansha's Daemon
+493,807,Asteroid Sansha's Nation Commander BattleCruiser,23399,True Sansha's Behemoth
+494,808,Asteroid Sansha's Nation Commander Cruiser,13605,True Sansha's Beast
+495,808,Asteroid Sansha's Nation Commander Cruiser,13611,True Sansha's Slaughterer
+496,808,Asteroid Sansha's Nation Commander Cruiser,13613,True Sansha's Juggernaut
+497,808,Asteroid Sansha's Nation Commander Cruiser,13618,True Sansha's Torturer
+498,808,Asteroid Sansha's Nation Commander Cruiser,13619,True Sansha's Hellhound
+499,808,Asteroid Sansha's Nation Commander Cruiser,13624,True Sansha's Ravager
+500,808,Asteroid Sansha's Nation Commander Cruiser,13626,True Sansha's Ravisher
+501,808,Asteroid Sansha's Nation Commander Cruiser,13630,True Sansha's Mutilator
+502,808,Asteroid Sansha's Nation Commander Cruiser,13631,True Sansha's Fiend
+503,808,Asteroid Sansha's Nation Commander Cruiser,13636,True Sansha's Execrator
+504,809,Asteroid Sansha's Nation Commander Destroyer,23391,True Sansha's Misshape
+505,809,Asteroid Sansha's Nation Commander Destroyer,23392,True Sansha's Cannibal
+506,809,Asteroid Sansha's Nation Commander Destroyer,23409,True Sansha's Devourer
+507,809,Asteroid Sansha's Nation Commander Destroyer,23410,True Sansha's Abomination
+508,809,Asteroid Sansha's Nation Commander Destroyer,23411,True Sansha's Monster
+509,809,Asteroid Sansha's Nation Commander Destroyer,23412,True Sansha's Horror
+510,810,Asteroid Sansha's Nation Commander Frigate,13610,True Sansha's Butcher
+511,810,Asteroid Sansha's Nation Commander Frigate,13612,True Sansha's Enslaver
+512,810,Asteroid Sansha's Nation Commander Frigate,13616,True Sansha's Manslayer
+513,810,Asteroid Sansha's Nation Commander Frigate,13617,True Sansha's Minion
+514,810,Asteroid Sansha's Nation Commander Frigate,13623,True Sansha's Plague
+515,810,Asteroid Sansha's Nation Commander Frigate,13625,True Sansha's Ravener
+516,810,Asteroid Sansha's Nation Commander Frigate,13627,True Sansha's Savage
+517,810,Asteroid Sansha's Nation Commander Frigate,13628,True Sansha's Scavenger
+518,810,Asteroid Sansha's Nation Commander Frigate,13629,True Sansha's Servant
+519,810,Asteroid Sansha's Nation Commander Frigate,13632,True Sansha's Slavehunter
+520,811,Asteroid Serpentis Commander BattleCruiser,23463,Shadow Serpentis Wing Leader
+521,811,Asteroid Serpentis Commander BattleCruiser,23464,Shadow Serpentis Squad Leader
+522,811,Asteroid Serpentis Commander BattleCruiser,23465,Shadow Serpentis Platoon Leader
+523,811,Asteroid Serpentis Commander BattleCruiser,23466,Shadow Serpentis Captain
+524,811,Asteroid Serpentis Commander BattleCruiser,23467,Shadow Serpentis Captain Sentry
+525,811,Asteroid Serpentis Commander BattleCruiser,23468,Shadow Serpentis High Captain
+526,812,Asteroid Serpentis Commander Cruiser,13637,Shadow Serpentis Chief Watchman
+527,812,Asteroid Serpentis Commander Cruiser,13638,Shadow Serpentis Chief Patroller
+528,812,Asteroid Serpentis Commander Cruiser,13639,Shadow Serpentis Chief Scout
+529,812,Asteroid Serpentis Commander Cruiser,13641,Shadow Serpentis Chief Spy
+530,812,Asteroid Serpentis Commander Cruiser,13651,Shadow Serpentis Chief Protector
+531,812,Asteroid Serpentis Commander Cruiser,13656,Shadow Serpentis Chief Sentinel
+532,812,Asteroid Serpentis Commander Cruiser,13663,Shadow Serpentis Chief Safeguard
+533,812,Asteroid Serpentis Commander Cruiser,13664,Shadow Serpentis Chief Guard
+534,812,Asteroid Serpentis Commander Cruiser,13668,Shadow Serpentis Chief Defender
+535,812,Asteroid Serpentis Commander Cruiser,13669,Shadow Serpentis Chief Infantry
+536,813,Asteroid Serpentis Commander Destroyer,23457,Shadow Serpentis Trooper
+537,813,Asteroid Serpentis Commander Destroyer,23458,Shadow Serpentis Soldier
+538,813,Asteroid Serpentis Commander Destroyer,23459,Shadow Serpentis Infantry
+539,813,Asteroid Serpentis Commander Destroyer,23460,Shadow Serpentis Sentinel
+540,813,Asteroid Serpentis Commander Destroyer,23461,Shadow Serpentis Cannoneer
+541,813,Asteroid Serpentis Commander Destroyer,23462,Shadow Serpentis Artillery
+542,814,Asteroid Serpentis Commander Frigate,13640,Shadow Serpentis Safeguard
+543,814,Asteroid Serpentis Commander Frigate,13642,Shadow Serpentis Guard
+544,814,Asteroid Serpentis Commander Frigate,13643,Shadow Serpentis Spy
+545,814,Asteroid Serpentis Commander Frigate,13644,Shadow Serpentis Watchman
+546,814,Asteroid Serpentis Commander Frigate,13645,Shadow Serpentis Scout
+547,814,Asteroid Serpentis Commander Frigate,13646,Shadow Serpentis Agent
+548,814,Asteroid Serpentis Commander Frigate,13647,Shadow Serpentis Defender
+549,814,Asteroid Serpentis Commander Frigate,13648,Shadow Serpentis Patroller
+550,814,Asteroid Serpentis Commander Frigate,13649,Shadow Serpentis Initiate
+551,814,Asteroid Serpentis Commander Frigate,13650,Shadow Serpentis Protector
+552,814,Asteroid Serpentis Commander Frigate,24369,Marauder Spy
+553,814,Asteroid Serpentis Commander Frigate,24370,Marauder Agent
+554,814,Asteroid Serpentis Commander Frigate,24371,Marauder Watchman
+555,814,Asteroid Serpentis Commander Frigate,24372,Marauder Patroller
+556,814,Asteroid Serpentis Commander Frigate,24373,Marauder Guard
+557,814,Asteroid Serpentis Commander Frigate,24374,Marauder Safeguard
+558,814,Asteroid Serpentis Commander Frigate,24375,Marauder Defender
+559,814,Asteroid Serpentis Commander Frigate,24376,Marauder Protector
+560,843,Asteroid Rogue Drone Commander BattleCruiser,27732,Sentient Crippler Alvatis
+561,843,Asteroid Rogue Drone Commander BattleCruiser,27733,Sentient Defeater Alvatis
+562,843,Asteroid Rogue Drone Commander BattleCruiser,27734,Sentient Enforcer Alvatis
+563,843,Asteroid Rogue Drone Commander BattleCruiser,27735,Sentient Exterminator Alvatis
+564,843,Asteroid Rogue Drone Commander BattleCruiser,27736,Sentient Siege Alvatis
+565,843,Asteroid Rogue Drone Commander BattleCruiser,27737,Sentient Striker Alvatis
+566,844,Asteroid Rogue Drone Commander Battleship,27722,Sentient Alvus Queen
+567,844,Asteroid Rogue Drone Commander Battleship,27723,Sentient Alvus Controller
+568,844,Asteroid Rogue Drone Commander Battleship,27724,Sentient Alvus Creator
+569,844,Asteroid Rogue Drone Commander Battleship,27725,Sentient Alvus Ruler
+570,844,Asteroid Rogue Drone Commander Battleship,27726,Sentient Domination Alvus
+571,844,Asteroid Rogue Drone Commander Battleship,27727,Sentient Matriarch Alvus
+572,844,Asteroid Rogue Drone Commander Battleship,27728,Sentient Patriarch Alvus
+573,844,Asteroid Rogue Drone Commander Battleship,27729,Sentient Spearhead Alvus
+574,844,Asteroid Rogue Drone Commander Battleship,27730,Sentient Supreme Alvus Parasite
+575,844,Asteroid Rogue Drone Commander Battleship,27731,Sentient Swarm Preserver Alvus
+576,845,Asteroid Rogue Drone Commander Cruiser,27738,Sentient Annihilator Alvum
+577,845,Asteroid Rogue Drone Commander Cruiser,27739,Sentient Atomizer Alvum
+578,845,Asteroid Rogue Drone Commander Cruiser,27740,Sentient Bomber Alvum
+579,845,Asteroid Rogue Drone Commander Cruiser,27741,Sentient Destructor Alvum
+580,845,Asteroid Rogue Drone Commander Cruiser,27742,Sentient Devastator Alvum
+581,845,Asteroid Rogue Drone Commander Cruiser,27743,Sentient Disintegrator Alvum
+582,845,Asteroid Rogue Drone Commander Cruiser,27744,Sentient Nuker Alvum
+583,845,Asteroid Rogue Drone Commander Cruiser,27745,Sentient Violator Alvum
+584,845,Asteroid Rogue Drone Commander Cruiser,27746,Sentient Viral Infector Alvum
+585,845,Asteroid Rogue Drone Commander Cruiser,27747,Sentient Wrecker Alvum
+586,846,Asteroid Rogue Drone Commander Destroyer,27748,Sentient Dismantler Alvior
+587,846,Asteroid Rogue Drone Commander Destroyer,27749,Sentient Marauder Alvior
+588,846,Asteroid Rogue Drone Commander Destroyer,27750,Sentient Predator Alvior
+589,846,Asteroid Rogue Drone Commander Destroyer,27751,Sentient Ripper Alvior
+590,846,Asteroid Rogue Drone Commander Destroyer,27752,Sentient Shatter Alvior
+591,846,Asteroid Rogue Drone Commander Destroyer,27753,Sentient Shredder Alvior
+592,847,Asteroid Rogue Drone Commander Frigate,27754,Sentient Barracuda Alvi
+593,847,Asteroid Rogue Drone Commander Frigate,27755,Sentient Decimator Alvi
+594,847,Asteroid Rogue Drone Commander Frigate,27756,Sentient Devilfish Alvi
+595,847,Asteroid Rogue Drone Commander Frigate,27757,Sentient Hunter Alvi
+596,847,Asteroid Rogue Drone Commander Frigate,27758,Sentient Infester Alvi
+597,847,Asteroid Rogue Drone Commander Frigate,27759,Sentient Raider Alvi
+598,847,Asteroid Rogue Drone Commander Frigate,27760,Sentient Render Alvi
+599,847,Asteroid Rogue Drone Commander Frigate,27761,Sentient Silverfish Alvi
+600,847,Asteroid Rogue Drone Commander Frigate,27762,Sentient Splinter Alvi
+601,847,Asteroid Rogue Drone Commander Frigate,27763,Sentient Sunder Alvi
+602,848,Asteroid Angel Cartel Commander Battleship,13535,Domination Commander
+603,848,Asteroid Angel Cartel Commander Battleship,13537,Domination General
+604,848,Asteroid Angel Cartel Commander Battleship,13539,Domination War General
+605,848,Asteroid Angel Cartel Commander Battleship,13540,Domination Saint
+606,848,Asteroid Angel Cartel Commander Battleship,13542,Domination Nephilim
+607,848,Asteroid Angel Cartel Commander Battleship,13543,Domination Warlord
+608,848,Asteroid Angel Cartel Commander Battleship,22871,Domination Malakim
+609,848,Asteroid Angel Cartel Commander Battleship,22872,Domination Throne
+610,848,Asteroid Angel Cartel Commander Battleship,22873,Domination Cherubim
+611,848,Asteroid Angel Cartel Commander Battleship,22874,Domination Seraphim
+612,849,Asteroid Blood Raiders Commander Battleship,13556,Dark Blood Prophet
+613,849,Asteroid Blood Raiders Commander Battleship,13559,Dark Blood Oracle
+614,849,Asteroid Blood Raiders Commander Battleship,13560,Dark Blood Archbishop
+615,849,Asteroid Blood Raiders Commander Battleship,13562,Dark Blood Apostle
+616,849,Asteroid Blood Raiders Commander Battleship,13563,Dark Blood Harbinger
+617,849,Asteroid Blood Raiders Commander Battleship,13572,Dark Blood Archon
+618,849,Asteroid Blood Raiders Commander Battleship,23299,Dark Blood Monsignor
+619,849,Asteroid Blood Raiders Commander Battleship,23300,Dark Blood Cardinal
+620,849,Asteroid Blood Raiders Commander Battleship,23301,Dark Blood Patriarch
+621,849,Asteroid Blood Raiders Commander Battleship,23302,Dark Blood Pope
+622,850,Asteroid Guristas Commander Battleship,13578,Dread Guristas Dismantler
+623,850,Asteroid Guristas Commander Battleship,13579,Dread Guristas Eliminator
+624,850,Asteroid Guristas Commander Battleship,13583,Dread Guristas Obliterator
+625,850,Asteroid Guristas Commander Battleship,13588,Dread Guristas Eradicator
+626,850,Asteroid Guristas Commander Battleship,13601,Dread Guristas Extinguisher
+627,850,Asteroid Guristas Commander Battleship,13602,Dread Guristas Exterminator
+628,850,Asteroid Guristas Commander Battleship,23355,Dread Guristas Destroyer
+629,850,Asteroid Guristas Commander Battleship,23356,Dread Guristas Conquistador
+630,850,Asteroid Guristas Commander Battleship,23357,Dread Guristas Massacrer
+631,850,Asteroid Guristas Commander Battleship,23358,Dread Guristas Usurper
+632,851,Asteroid Sansha's Nation Commander Battleship,13606,True Sansha's Lord
+633,851,Asteroid Sansha's Nation Commander Battleship,13614,True Sansha's Slave Lord
+634,851,Asteroid Sansha's Nation Commander Battleship,13620,True Sansha's Mutant Lord
+635,851,Asteroid Sansha's Nation Commander Battleship,13621,True Sansha's Plague Lord
+636,851,Asteroid Sansha's Nation Commander Battleship,13633,True Sansha's Beast Lord
+637,851,Asteroid Sansha's Nation Commander Battleship,13634,True Sansha's Savage Lord
+638,851,Asteroid Sansha's Nation Commander Battleship,23400,True Sansha's Overlord
+639,851,Asteroid Sansha's Nation Commander Battleship,23401,True Sansha's Dark Lord
+640,851,Asteroid Sansha's Nation Commander Battleship,23402,True Sansha's Dread Lord
+641,851,Asteroid Sansha's Nation Commander Battleship,23403,True Sansha's Tyrant
+642,852,Asteroid Serpentis Commander Battleship,13652,Shadow Serpentis Vice Admiral
+643,852,Asteroid Serpentis Commander Battleship,13653,Shadow Serpentis Rear Admiral
+644,852,Asteroid Serpentis Commander Battleship,13658,Shadow Serpentis Commodore
+645,852,Asteroid Serpentis Commander Battleship,13660,Shadow Serpentis Baron
+646,852,Asteroid Serpentis Commander Battleship,13665,Shadow Serpentis Port Admiral
+647,852,Asteroid Serpentis Commander Battleship,13666,Shadow Serpentis Flotilla Admiral
+648,852,Asteroid Serpentis Commander Battleship,23469,Shadow Serpentis Admiral
+649,852,Asteroid Serpentis Commander Battleship,23470,Shadow Serpentis High Admiral
+650,852,Asteroid Serpentis Commander Battleship,23471,Shadow Serpentis Grand Admiral
+651,852,Asteroid Serpentis Commander Battleship,23472,Shadow Serpentis Lord Admiral
+652,883,Capital Industrial Ship,28352,Rorqual
+653,883,Capital Industrial Ship,33687,Rorqual ORE Development Edition
+654,893,Electronic Attack Ship,11174,Keres
+655,893,Electronic Attack Ship,11190,Sentinel
+656,893,Electronic Attack Ship,11194,Kitsune
+657,893,Electronic Attack Ship,11387,Hyena
+658,893,Electronic Attack Ship,60765,Raiju
+659,894,Heavy Interdiction Cruiser,11995,Onyx
+660,894,Heavy Interdiction Cruiser,12013,Broadsword
+661,894,Heavy Interdiction Cruiser,12017,Devoter
+662,894,Heavy Interdiction Cruiser,12021,Phobos
+663,894,Heavy Interdiction Cruiser,35781,Fiend
+664,894,Heavy Interdiction Cruiser,60764,Laelaps
+665,898,Black Ops,22428,Redeemer
+666,898,Black Ops,22430,Sin
+667,898,Black Ops,22436,Widow
+668,898,Black Ops,22440,Panther
+669,898,Black Ops,44996,Marshal
+670,898,Black Ops,85236,Python
+671,900,Marauder,28659,Paladin
+672,900,Marauder,28661,Kronos
+673,900,Marauder,28665,Vargur
+674,900,Marauder,28710,Golem
+675,900,Marauder,34219,Paladin Blood Raider Edition
+676,900,Marauder,34221,Paladin Kador Edition
+677,900,Marauder,34223,Paladin Tash-Murkon Edition
+678,900,Marauder,34231,Golem Guristas Edition
+679,900,Marauder,34233,Golem Kaalakiota Edition
+680,900,Marauder,34235,Golem Nugoeihuvi Edition
+681,900,Marauder,34241,Kronos Police Edition
+682,900,Marauder,34243,Kronos Quafe Edition
+683,900,Marauder,34245,Kronos Inner Zone Shipping Edition
+684,900,Marauder,34253,Vargur Justice Edition
+685,900,Marauder,34255,Vargur Krusual Edition
+686,900,Marauder,34257,Vargur Nefantar Edition
+687,900,Marauder,47727,GFX Test Vargur 1/2
+688,900,Marauder,47728,GFX Test Vargur 2/2
+689,906,Combat Recon Ship,11959,Rook
+690,906,Combat Recon Ship,11961,Huginn
+691,906,Combat Recon Ship,11971,Lachesis
+692,906,Combat Recon Ship,20125,Curse
+693,963,Strategic Cruiser,29984,Tengu
+694,963,Strategic Cruiser,29986,Legion
+695,963,Strategic Cruiser,29988,Proteus
+696,963,Strategic Cruiser,29990,Loki
+697,1174,Asteroid Rogue Drone Officer,32959,Unit D-34343
+698,1174,Asteroid Rogue Drone Officer,32960,Unit F-435454
+699,1174,Asteroid Rogue Drone Officer,32961,Unit P-343554
+700,1174,Asteroid Rogue Drone Officer,32962,Unit W-634
+701,1283,Expedition Frigate,33697,Prospect
+702,1283,Expedition Frigate,37135,Endurance
+703,1285,Asteroid Mordus Legion Commander Frigate,33864,Mordu’s Special Warfare Unit Operative
+704,1286,Asteroid Mordus Legion Commander Cruiser,33865,Mordu’s Special Warfare Unit Specialist
+705,1287,Asteroid Mordus Legion Commander Battleship,33866,Mordu’s Special Warfare Unit Commander
+706,1305,Tactical Destroyer,34317,Confessor
+707,1305,Tactical Destroyer,34562,Svipul
+708,1305,Tactical Destroyer,34828,Jackdaw
+709,1305,Tactical Destroyer,35683,Hecate
+710,1310,Drifter Battleship,34495,Drifter Battleship
+711,1310,Drifter Battleship,34561,Drifter Battleship
+712,1310,Drifter Battleship,50093,Drifter Battleship
+713,1530,Drifter Response Battleship,37473,Drifter Response Battleship
+714,1534,Command Destroyer,37480,Bifrost
+715,1534,Command Destroyer,37481,Pontifex
+716,1534,Command Destroyer,37482,Stork
+717,1534,Command Destroyer,37483,Magus
+718,1534,Command Destroyer,52254,Draugur
+719,1537,Support Fighter,37599,Cenobite I
+720,1537,Support Fighter,40345,Scarab I
+721,1537,Support Fighter,40346,Siren I
+722,1537,Support Fighter,40347,Dromi I
+723,1537,Support Fighter,40568,Cenobite II
+724,1537,Support Fighter,40569,Scarab II
+725,1537,Support Fighter,40570,Siren II
+726,1537,Support Fighter,40571,Dromi II
+727,1537,Support Fighter,45651,Able_PLACEHOLDER
+728,1537,Support Fighter,83591,Imperial Navy Cenobite
+729,1537,Support Fighter,83592,Caldari Navy Scarab
+730,1537,Support Fighter,83593,Federation Navy Siren
+731,1537,Support Fighter,83594,Republic Fleet Dromi
+732,1538,Force Auxiliary,37604,Apostle
+733,1538,Force Auxiliary,37605,Minokawa
+734,1538,Force Auxiliary,37606,Lif
+735,1538,Force Auxiliary,37607,Ninazu
+736,1538,Force Auxiliary,42133,Venerable
+737,1538,Force Auxiliary,42242,Dagon
+738,1538,Force Auxiliary,45645,Loggerhead
+739,1652,Light Fighter,23055,Templar I
+740,1652,Light Fighter,23057,Dragonfly I
+741,1652,Light Fighter,23059,Firbolg I
+742,1652,Light Fighter,23061,Einherji I
+743,1652,Light Fighter,40358,Equite I
+744,1652,Light Fighter,40359,Locust I
+745,1652,Light Fighter,40360,Satyr I
+746,1652,Light Fighter,40361,Gram I
+747,1652,Light Fighter,40552,Equite II
+748,1652,Light Fighter,40553,Gram II
+749,1652,Light Fighter,40554,Locust II
+750,1652,Light Fighter,40555,Satyr II
+751,1652,Light Fighter,40556,Templar II
+752,1652,Light Fighter,40557,Dragonfly II
+753,1652,Light Fighter,40558,Firbolg II
+754,1652,Light Fighter,40559,Einherji II
+755,1652,Light Fighter,45669,Baker_PLACEHOLDER
+756,1652,Light Fighter,45671,Charlie_PLACEHOLDER
+757,1652,Light Fighter,83579,Imperial Navy Templar
+758,1652,Light Fighter,83582,Caldari Navy Dragonfly
+759,1652,Light Fighter,83583,Federation Navy Firbolg
+760,1652,Light Fighter,83584,Republic Fleet Einherji
+761,1652,Light Fighter,83585,Imperial Navy Equite
+762,1652,Light Fighter,83586,Caldari Navy Locust
+763,1652,Light Fighter,83587,Federation Navy Satyr
+764,1652,Light Fighter,83589,Republic Fleet Gram
+765,1653,Heavy Fighter,2948,Shadow
+766,1653,Heavy Fighter,32325,Cyclops I
+767,1653,Heavy Fighter,32340,Malleus I
+768,1653,Heavy Fighter,32342,Tyrfing I
+769,1653,Heavy Fighter,32344,Mantis I
+770,1653,Heavy Fighter,40362,Ametat I
+771,1653,Heavy Fighter,40363,Termite I
+772,1653,Heavy Fighter,40364,Antaeus I
+773,1653,Heavy Fighter,40365,Gungnir I
+774,1653,Heavy Fighter,40560,Ametat II
+775,1653,Heavy Fighter,40561,Malleus II
+776,1653,Heavy Fighter,40562,Antaeus II
+777,1653,Heavy Fighter,40563,Cyclops II
+778,1653,Heavy Fighter,40564,Gungnir II
+779,1653,Heavy Fighter,40565,Tyrfing II
+780,1653,Heavy Fighter,40566,Termite II
+781,1653,Heavy Fighter,40567,Mantis II
+782,1653,Heavy Fighter,45673,Dog_PLACEHOLDER
+783,1653,Heavy Fighter,45675,Easy_PLACEHOLDER
+784,1657,Citadel,35832,Astrahus
+785,1657,Citadel,35833,Fortizar
+786,1657,Citadel,35834,Keepstar
+787,1657,Citadel,40340,Upwell Palatine Keepstar
+788,1657,Citadel,47512,'Moreau' Fortizar
+789,1657,Citadel,47513,'Draccous' Fortizar
+790,1657,Citadel,47514,'Horizon' Fortizar
+791,1657,Citadel,47515,'Marginis' Fortizar
+792,1657,Citadel,47516,'Prometheus' Fortizar
+793,1681,Asteroid Angel Cartel Dreadnought,37461,Angel Dreadnought
+794,1681,Asteroid Angel Cartel Dreadnought,41396,Domination Dreadnought
+795,1682,Asteroid Angel Cartel Titan,37462,Domination Titan
+796,1683,Asteroid Blood Raider Dreadnought,37463,Blood Dreadnought
+797,1683,Asteroid Blood Raider Dreadnought,41397,Dark Blood Dreadnought
+798,1684,Asteroid Blood Raider Titan,37464,Dark Blood Titan
+799,1685,Asteroid Guristas Dreadnought,37465,Guristas Dreadnought
+800,1685,Asteroid Guristas Dreadnought,41398,Dread Guristas Dreadnought
+801,1686,Asteroid Guristas Titan,37466,Dread Guristas Titan
+802,1687,Asteroid Sansha's Nation Dreadnought,37467,Sansha's Dreadnought
+803,1687,Asteroid Sansha's Nation Dreadnought,41399,True Sansha's Dreadnought
+804,1688,Asteroid Sansha's Nation Supercarrier,40671,True Sansha's Supercarrier
+805,1689,Asteroid Serpentis Dreadnought,37468,Serpentis Dreadnought
+806,1689,Asteroid Serpentis Dreadnought,41400,Shadow Serpentis Dreadnought
+807,1690,Asteroid Serpentis Titan,40637,Shadow Serpentis Titan
+808,1691,Asteroid Rogue Drone Carrier,37470,Infested Carrier
+809,1691,Asteroid Rogue Drone Carrier,41401,Sentient Infested Carrier
+810,1692,Asteroid Rogue Drone Supercarrier,37471,Sentient Infested Supercarrier
+811,1764,♦ Mining Frigate,42533,♦ Venture
+812,1765,♦ Mining Barge,42534,♦ Retriever
+813,1766,♦ Mining Exhumer,42535,♦ Skiff
+814,1766,♦ Mining Exhumer,49964,Frostline Gatherer
+815,1767,♦ Mining Hauler,42654,♦ Bestower
+816,1767,♦ Mining Hauler,42655,♦ Impel
+817,1767,♦ Mining Hauler,42656,♦ Badger
+818,1767,♦ Mining Hauler,42657,♦ Bustard
+819,1767,♦ Mining Hauler,42658,♦ Iteron Mark V
+820,1767,♦ Mining Hauler,42659,♦ Occator
+821,1767,♦ Mining Hauler,42660,♦ Mammoth
+822,1767,♦ Mining Hauler,42661,♦ Mastodon
+823,1767,♦ Mining Hauler,43612,♦ Badger
+824,1767,♦ Mining Hauler,43613,♦ Bustard
+825,1767,♦ Mining Hauler,53560,♦ Iteron Mk. V
+826,1767,♦ Mining Hauler,53561,♦ Charon
+827,1767,♦ Mining Hauler,53569,♦ Obelisk
+828,1767,♦ Mining Hauler,53570,♦ Bestower
+829,1803,♦ Frigate,42841,♦ Tormentor
+830,1803,♦ Frigate,42842,♦ Inquisitor
+831,1803,♦ Frigate,42843,♦ Executioner
+832,1803,♦ Frigate,42845,♦ Crucifier
+833,1803,♦ Frigate,42846,♦ Punisher
+834,1803,♦ Frigate,43563,♦ Kestrel
+835,1803,♦ Frigate,43564,♦ Bantam
+836,1803,♦ Frigate,43565,♦ Condor
+837,1803,♦ Frigate,43566,♦ Merlin
+838,1803,♦ Frigate,43567,♦ Griffin
+839,1803,♦ Frigate,43574,♦ Incursus
+840,1803,♦ Frigate,43575,♦ Navitas
+841,1803,♦ Frigate,43576,♦ Atron
+842,1803,♦ Frigate,43577,♦ Maulus
+843,1803,♦ Frigate,43578,♦ Tristan
+844,1803,♦ Frigate,43585,♦ Rifter
+845,1803,♦ Frigate,43586,♦ Burst
+846,1803,♦ Frigate,43587,♦ Slasher
+847,1803,♦ Frigate,43588,♦ Vigil
+848,1803,♦ Frigate,43589,♦ Breacher
+849,1803,♦ Frigate,43596,♦ Punisher
+850,1803,♦ Frigate,43597,♦ Inquisitor
+851,1803,♦ Frigate,43598,♦ Executioner
+852,1803,♦ Frigate,43599,♦ Crucifier
+853,1803,♦ Frigate,43600,♦ Cruor
+854,1803,♦ Frigate,43614,♦ Kestrel
+855,1803,♦ Frigate,43615,♦ Bantam
+856,1803,♦ Frigate,43616,♦ Condor
+857,1803,♦ Frigate,43617,♦ Worm
+858,1803,♦ Frigate,43618,♦ Griffin
+859,1803,♦ Frigate,43633,♦ Dramiel
+860,1803,♦ Frigate,43634,♦ Swordspine
+861,1803,♦ Frigate,43635,♦ Fury
+862,1803,♦ Frigate,43636,♦ Medusa
+863,1803,♦ Frigate,43638,♦ Lynx
+864,1803,♦ Frigate,43644,Barracuda Drone
+865,1803,♦ Frigate,43645,Atomizer Drone
+866,1803,♦ Frigate,43646,Infester Drone
+867,1803,♦ Frigate,43647,Splinter Drone
+868,1803,♦ Frigate,43648,Sunder Drone
+869,1803,♦ Frigate,43653,♦ Succubus
+870,1803,♦ Frigate,43654,♦ Ravener
+871,1803,♦ Frigate,43655,♦ Imp
+872,1803,♦ Frigate,44107,♦ Succubus
+873,1803,♦ Frigate,44108,♦ Succubus
+874,1803,♦ Frigate,44953,♦ Purifier
+875,1803,♦ Frigate,45680,♦ Cruor
+876,1803,♦ Frigate,46052,♦ Cruor
+877,1803,♦ Frigate,46053,♦ Worm
+878,1803,♦ Frigate,46058,♦ Daredevil
+879,1803,♦ Frigate,46061,♦ Dramiel
+880,1803,♦ Frigate,46066,♦ Punisher
+881,1803,♦ Frigate,46070,♦ Merlin
+882,1803,♦ Frigate,46074,♦ Incursus
+883,1803,♦ Frigate,46078,♦ Rifter
+884,1803,♦ Frigate,46382,♦ Kestrel
+885,1803,♦ Frigate,47194,♦ test_drone_damage
+886,1803,♦ Frigate,47195,♦ test_drone_logi
+887,1803,♦ Frigate,47196,♦ test_damage
+888,1803,♦ Frigate,47197,♦ test_ewar
+889,1803,♦ Frigate,57582,AEGIS Security Pacifier
+890,1803,♦ Frigate,59174,♦ Succubus
+891,1803,♦ Frigate,59586,SCC Security Responder
+892,1803,♦ Frigate,60145,SCC Security Interceptor
+893,1803,♦ Frigate,60326,AEGIS Security Lancer
+894,1803,♦ Frigate,60327,AEGIS Security Hobelar
+895,1803,♦ Frigate,60726,AEGIS Response Arquebus
+896,1813,♦ Cruiser,43557,♦ Omen
+897,1813,♦ Cruiser,43558,♦ Augoror
+898,1813,♦ Cruiser,43559,♦ Arbitrator
+899,1813,♦ Cruiser,43560,♦ Maller
+900,1813,♦ Cruiser,43568,♦ Caracal
+901,1813,♦ Cruiser,43569,♦ Osprey
+902,1813,♦ Cruiser,43570,♦ Moa
+903,1813,♦ Cruiser,43571,♦ Blackbird
+904,1813,♦ Cruiser,43579,♦ Thorax
+905,1813,♦ Cruiser,43580,♦ Exequror
+906,1813,♦ Cruiser,43581,♦ Celestis
+907,1813,♦ Cruiser,43582,♦ Vexor
+908,1813,♦ Cruiser,43590,♦ Rupture
+909,1813,♦ Cruiser,43591,♦ Scythe
+910,1813,♦ Cruiser,43592,♦ Bellicose
+911,1813,♦ Cruiser,43593,♦ Stabber
+912,1813,♦ Cruiser,43601,♦ Omen
+913,1813,♦ Cruiser,43602,♦ Augoror
+914,1813,♦ Cruiser,43603,♦ Arbitrator
+915,1813,♦ Cruiser,43604,♦ Ashimmu
+916,1813,♦ Cruiser,43622,♦ Caracal
+917,1813,♦ Cruiser,43623,♦ Osprey
+918,1813,♦ Cruiser,43624,♦ Gila
+919,1813,♦ Cruiser,43625,♦ Blackbird
+920,1813,♦ Cruiser,43641,♦ Cynabal
+921,1813,♦ Cruiser,43642,♦ Ixion
+922,1813,♦ Cruiser,43649,♦ Annihilator Drone
+923,1813,♦ Cruiser,43656,♦ Phantasm
+924,1813,♦ Cruiser,46054,♦ Ashimmu
+925,1813,♦ Cruiser,46056,♦ Gila
+926,1813,♦ Cruiser,46059,♦ Vigilant
+927,1813,♦ Cruiser,46062,♦ Cynabal
+928,1813,♦ Cruiser,46067,♦ Omen
+929,1813,♦ Cruiser,46071,♦ Caracal
+930,1813,♦ Cruiser,46075,♦ Thorax
+931,1813,♦ Cruiser,46079,♦ Rupture
+932,1813,♦ Cruiser,46581,♦ Caracal
+933,1813,♦ Cruiser,46760,♦ Moa
+934,1813,♦ Cruiser,48583,♦ DED Special Operation Captain
+935,1813,♦ Cruiser,57584,AEGIS Security Enforcer
+936,1813,♦ Cruiser,59175,♦ Phantasm
+937,1813,♦ Cruiser,59585,SCC Security Striker
+938,1813,♦ Cruiser,60143,SCC Security Neutralizer
+939,1813,♦ Cruiser,60153,SCC Security Jammer
+940,1813,♦ Cruiser,60323,AEGIS Security Demilancer
+941,1813,♦ Cruiser,60324,AEGIS Security Picador
+942,1813,♦ Cruiser,60325,AEGIS Security Gendarme
+943,1813,♦ Cruiser,60725,AEGIS Fireteam Culverin
+944,1814,♦ Battleship,43561,♦ Apocalypse
+945,1814,♦ Battleship,43562,♦ Armageddon
+946,1814,♦ Battleship,43572,♦ Raven
+947,1814,♦ Battleship,43573,♦ Scorpion
+948,1814,♦ Battleship,43583,♦ Megathron
+949,1814,♦ Battleship,43584,♦ Dominix
+950,1814,♦ Battleship,43594,♦ Tempest
+951,1814,♦ Battleship,43595,♦ Typhoon
+952,1814,♦ Battleship,43605,♦ Apocalypse
+953,1814,♦ Battleship,43606,♦ Bhaalgorn
+954,1814,♦ Battleship,43626,♦ Raven
+955,1814,♦ Battleship,43627,♦ Rattlesnake
+956,1814,♦ Battleship,43643,♦ Machariel
+957,1814,♦ Battleship,43650,♦ Infested Dominix
+958,1814,♦ Battleship,43657,♦ Nightmare
+959,1814,♦ Battleship,45055,♦ Bhaalgorn
+960,1814,♦ Battleship,45056,♦ Apocalypse
+961,1814,♦ Battleship,46055,♦ Bhaalgorn
+962,1814,♦ Battleship,46057,♦ Rattlesnake
+963,1814,♦ Battleship,46060,♦ Vindicator
+964,1814,♦ Battleship,46063,♦ Machariel
+965,1814,♦ Battleship,46069,♦ Apocalypse
+966,1814,♦ Battleship,46073,♦ Raven
+967,1814,♦ Battleship,46077,♦ Megathron
+968,1814,♦ Battleship,46081,♦ Tempest
+969,1814,♦ Battleship,46523,♦ Rattlesnake
+970,1814,♦ Battleship,46524,♦ Raven
+971,1814,♦ Battleship,47198,♦ test_boss
+972,1814,♦ Battleship,57586,AEGIS Security Marshal
+973,1814,♦ Battleship,59176,♦ Nightmare
+974,1814,♦ Battleship,59584,SCC Security Commander
+975,1814,♦ Battleship,60321,AEGIS Security Cataphract
+976,1814,♦ Battleship,60322,AEGIS Security Carabinier
+977,1814,♦ Battleship,60724,AEGIS Fireteam Ribauldequin
+978,1814,♦ Battleship,62250,♦ Infested Abaddon
+979,1814,♦ Battleship,62251,♦ Infested Dominix
+980,1814,♦ Battleship,62252,♦ Infested Raven
+981,1814,♦ Battleship,62253,♦ Infested Typhoon
+982,1876,♦ Engineering Complex,45006,♦ Sotiyo
+983,1878,♦ Titan,45471,♦ Molok
+984,1878,♦ Titan,45472,♦ Molok
+985,1879,♦ Force Auxiliary,45473,♦ Dagon
+986,1880,♦ Dreadnought,45470,♦ Chemosh
+987,1880,♦ Dreadnought,45474,♦ Chemosh
+988,1880,♦ Dreadnought,46653,♦ Caiman
+989,1880,♦ Dreadnought,46654,♦ Caiman
+990,1880,♦ Dreadnought,60942,Starwight Rakshasa
+991,1880,♦ Dreadnought,60943,Moonwight Rakshasa
+992,1880,♦ Dreadnought,61292,Darkwight Rakshasa
+993,1880,♦ Dreadnought,63154,♦ Forgemaster Caiman
+994,1880,♦ Dreadnought,64346,♦ Officer Chemosh
+995,1896,♦ Industrial Command,46046,♦ Orca
+996,1896,♦ Industrial Command,46047,♦ Orca
+997,1896,♦ Industrial Command,46048,♦ Orca
+998,1896,♦ Industrial Command,46049,♦ Orca
+999,1896,♦ Industrial Command,48134,Justice Liberator
+1000,1896,♦ Industrial Command,53534,♦ Bowhead
+1001,1896,♦ Industrial Command,53568,♦ Providence
+1002,1896,♦ Industrial Command,60732,AEGIS Secure Transfer Barge
+1003,1909,♦ Battlecruiser,46068,♦ Harbinger
+1004,1909,♦ Battlecruiser,46072,♦ Drake
+1005,1909,♦ Battlecruiser,46076,♦ Brutix
+1006,1909,♦ Battlecruiser,46080,♦ Hurricane
+1007,1924,♦ Stronghold,46363,Guristas Pirates Stronghold
+1008,1924,♦ Stronghold,46364,Blood Raiders Stronghold
+1009,1924,♦ Stronghold,71116,Amarr Empire Stronghold
+1010,1924,♦ Stronghold,71117,Caldari State Stronghold
+1011,1924,♦ Stronghold,71118,Gallente Federation Stronghold
+1012,1924,♦ Stronghold,71119,Minmatar Republic Stronghold
+1013,1972,Flag Cruiser,45534,Monitor
+1014,4795,Asteroid Angel Cartel Officer Cruiser,84950,Sila Aajai
+1015,4796,Asteroid Angel Cartel Officer Frigate,84926,Ramaku Basta
+1016,4797,Asteroid Blood Raiders Officer Cruiser,84952,Ryhad Sethrim
+1017,4798,Asteroid Blood Raiders Officer Frigate,84945,Makra Ozman
+1018,4799,Asteroid Guristas Officer Cruiser,84953,Hanaruwa Oittenen
+1019,4800,Asteroid Guristas Officer Frigate,84946,Panola Paatama
+1020,4801,Asteroid Sansha's Nation Officer Cruiser,84954,Nija Zufa
+1021,4802,Asteroid Sansha's Nation Officer Frigate,84947,Usaras Koirola
+1022,4803,Asteroid Serpentis Officer Cruiser,84951,Gara Minsk
+1023,4804,Asteroid Serpentis Officer Frigate,84948,Asine Hitama

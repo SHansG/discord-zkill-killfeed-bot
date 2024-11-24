@@ -1,0 +1,1021 @@
+,typeID,typeName
+4,582,Bantam
+5,583,Condor
+6,584,Griffin
+7,585,Slasher
+8,586,Probe
+9,587,Rifter
+10,589,Executioner
+11,590,Inquisitor
+12,591,Tormentor
+13,592,Navitas
+14,593,Tristan
+15,594,Incursus
+16,595,Gallente Police Ship
+17,597,Punisher
+18,598,Breacher
+19,599,Burst
+20,600,Minmatar Peacekeeper Ship
+21,602,Kestrel
+22,603,Merlin
+23,605,Heron
+24,607,Imicus
+25,608,Atron
+26,609,Maulus
+27,613,Devourer
+28,614,Fury
+29,616,Medusa
+30,618,Lynx
+31,619,Swordspine
+32,1896,Concord Police Frigate
+33,1898,Concord SWAT Frigate
+34,1900,Concord Army Frigate
+35,1902,Concord Special Ops Frigate
+36,2161,Crucifier
+37,3532,Echelon
+38,3751,SOCT 1
+39,3753,SOCT 2
+40,3766,Vigil
+41,3768,Amarr Police Frigate
+42,11019,Cockroach
+43,11940,Gold Magnate
+44,11942,Silver Magnate
+45,17360,Immovable Enigma
+46,17619,Caldari Navy Hookbill
+47,17703,Imperial Navy Slicer
+48,17705,Khanid Navy Frigate
+49,17707,Mordus Frigate
+50,17812,Republic Fleet Firetail
+51,17841,Federation Navy Comet
+52,17924,Succubus
+53,17926,Cruor
+54,17928,Daredevil
+55,17930,Worm
+56,17932,Dramiel
+57,29248,Magnate
+58,32880,Venture
+59,32983,Sukuuvestaa Heron
+60,32985,Inner Zone Shipping Imicus
+61,32987,Sarum Magnate
+62,32989,Vherokior Probe
+63,33190,Tash-Murkon Magnate
+64,33468,Astero
+65,33655,Punisher Kador Edition
+66,33657,Punisher Tash-Murkon Edition
+67,33659,Merlin Nugoeihuvi Edition
+68,33661,Merlin Wiyrkomi Edition
+69,33663,Rifter Nefantar Edition
+70,33665,Rifter Krusual Edition
+71,33667,Incursus Aliastra Edition
+72,33669,Incursus Inner Zone Shipping Edition
+73,33677,Police Pursuit Comet
+74,33816,Garmur
+75,34443,Tristan Quafe Edition
+76,37453,Crucifier Navy Issue
+77,37454,Vigil Fleet Issue
+78,37455,Griffin Navy Issue
+79,37456,Maulus Navy Issue
+80,47269,Damavik
+81,54731,Skybreaker
+82,58745,AIR Civilian Astero
+83,72903,Probe Fleet Issue
+84,72904,Heron Navy Issue
+85,72907,Magnate Navy Issue
+86,72913,Imicus Navy Issue
+87,77114,Metamorphosis
+88,620,Osprey
+89,621,Caracal
+90,622,Stabber
+91,623,Moa
+92,624,Maller
+93,625,Augoror
+94,626,Vexor
+95,627,Thorax
+96,628,Arbitrator
+97,629,Rupture
+98,630,Bellicose
+99,631,Scythe
+100,632,Blackbird
+101,633,Celestis
+102,634,Exequror
+103,635,Opux Luxury Yacht
+104,1904,Concord Police Cruiser
+105,2006,Omen
+106,11011,Guardian-Vexor
+107,17634,Caracal Navy Issue
+108,17709,Omen Navy Issue
+109,17713,Stabber Fleet Issue
+110,17715,Gila
+111,17718,Phantasm
+112,17720,Cynabal
+113,17722,Vigilant
+114,17843,Vexor Navy Issue
+115,17922,Ashimmu
+116,25560,Opux Dragoon Yacht
+117,29336,Scythe Fleet Issue
+118,29337,Augoror Navy Issue
+119,29340,Osprey Navy Issue
+120,29344,Exequror Navy Issue
+121,33470,Stratios
+122,33553,Stratios Emergency Responder
+123,33639,Omen Kador Edition
+124,33641,Omen Tash-Murkon Edition
+125,33643,Caracal Nugoeihuvi Edition
+126,33645,Caracal Wiyrkomi Edition
+127,33647,Stabber Nefantar Edition
+128,33649,Stabber Krusual Edition
+129,33651,Thorax Aliastra Edition
+130,33653,Thorax Inner Zone Shipping Edition
+131,33818,Orthrus
+132,34445,Vexor Quafe Edition
+133,34475,毒蜥级YC117年特别版
+134,34590,Victorieux Luxury Yacht
+135,47270,Vedmak
+136,49712,Rodiva
+137,52267,Test Site Maller
+138,54732,Stormbringer
+139,638,Raven
+140,639,Tempest
+141,640,Scorpion
+142,641,Megathron
+143,642,Apocalypse
+144,643,Armageddon
+145,644,Typhoon
+146,645,Dominix
+147,1912,Concord Police Battleship
+148,1914,Concord Special Ops Battleship
+149,1916,Concord SWAT Battleship
+150,1918,Concord Army Battleship
+151,4005,Scorpion Ishukone Watch
+152,11936,Apocalypse Imperial Issue
+153,11938,Armageddon Imperial Issue
+154,13202,Megathron Federate Issue
+155,17636,Raven Navy Issue
+156,17726,Apocalypse Navy Issue
+157,17728,Megathron Navy Issue
+158,17732,Tempest Fleet Issue
+159,17736,Nightmare
+160,17738,Machariel
+161,17740,Vindicator
+162,17918,Rattlesnake
+163,17920,Bhaalgorn
+164,24688,Rokh
+165,24690,Hyperion
+166,24692,Abaddon
+167,24694,Maelstrom
+168,26840,Raven State Issue
+169,26842,Tempest Tribal Issue
+170,32305,Armageddon Navy Issue
+171,32307,Dominix Navy Issue
+172,32309,Scorpion Navy Issue
+173,32311,Typhoon Fleet Issue
+174,33472,Nestor
+175,33623,Abaddon Tash-Murkon Edition
+176,33625,Abaddon Kador Edition
+177,33627,Rokh Nugoeihuvi Edition
+178,33629,Rokh Wiyrkomi Edition
+179,33631,Maelstrom Nefantar Edition
+180,33633,Maelstrom Krusual Edition
+181,33635,Hyperion Aliastra Edition
+182,33637,Hyperion Inner Zone Shipping Edition
+183,33820,Barghest
+184,34118,Megathron Quafe Edition
+185,34151,Rattlesnake Victory Edition
+186,34213,Apocalypse Blood Raider Edition
+187,34215,Apocalypse Kador Edition
+188,34217,Apocalypse Tash-Murkon Edition
+189,34225,Raven Guristas Edition
+190,34227,Raven Kaalakiota Edition
+191,34229,Raven Nugoeihuvi Edition
+192,34237,Megathron Police Edition
+193,34239,Megathron Inner Zone Shipping Edition
+194,34247,Tempest Justice Edition
+195,34249,Tempest Krusual Edition
+196,34251,Tempest Nefantar Edition
+197,34441,Dominix Quafe Edition
+198,34457,末日沙场级YC117年特别版
+199,34459,地狱天使级YC117年特别版
+200,34461,马克瑞级YC117年特别版
+201,34463,响尾蛇级YC117年特别版
+202,34465,多米尼克斯级YC117年特别版
+203,34467,万王宝座级YC117年特别版
+204,34469,乌鸦级YC117年特别版
+205,34471,灾难级YC117年特别版
+206,47271,Leshak
+207,47466,Praxis
+208,54733,Thunderchild
+209,648,Badger
+210,649,Tayra
+211,650,Nereus
+212,651,Hoarder
+213,652,Mammoth
+214,653,Wreathe
+215,654,Kryos
+216,655,Epithal
+217,656,Miasmos
+218,657,Iteron Mark V
+219,1944,Bestower
+220,2863,Primae
+221,2998,Noctis
+222,4363,Miasmos Quafe Ultra Edition
+223,4388,Miasmos Quafe Ultramarine Edition
+224,19744,Sigil
+225,32811,Miasmos Amastris Edition
+226,33689,Iteron Inner Zone Shipping Edition
+227,33691,Tayra Wiyrkomi Edition
+228,33693,Mammoth Nefantar Edition
+229,33695,Bestower Tash-Murkon Edition
+230,81008,Squall
+231,670,Capsule
+232,33328,Capsule - Genolution 'Auroral' 197-variant
+233,671,Erebus
+234,3764,Leviathan
+235,11567,Avatar
+236,23773,Ragnarok
+237,42126,Vanquisher
+238,42241,Molok
+239,45649,Komodo
+240,78576,Azariel
+241,2834,Utu
+242,3516,Malice
+243,11365,Vengeance
+244,11371,Wolf
+245,11373,Blade
+246,11375,Erinye
+247,11379,Hawk
+248,11381,Harpy
+249,11383,Gatherer
+250,11389,Kishar
+251,11393,Retribution
+252,11400,Jaguar
+253,12036,Dagger
+254,12042,Ishkur
+255,12044,Enyo
+256,32207,Freki
+257,32788,Cambion
+258,52250,Nergal
+259,74141,Geri
+260,78414,Shapash
+261,3756,Gnosis
+262,16227,Ferox
+263,16229,Brutix
+264,16231,Cyclone
+265,16233,Prophecy
+266,24696,Harbinger
+267,24698,Drake
+268,24700,Myrmidon
+269,24702,Hurricane
+270,33151,Brutix Navy Issue
+271,33153,Drake Navy Issue
+272,33155,Harbinger Navy Issue
+273,33157,Hurricane Fleet Issue
+274,33869,Brutix Serpentis Edition
+275,33871,Cyclone Thukker Tribe Edition
+276,33873,Ferox Guristas Edition
+277,33875,Prophecy Blood Raiders Edition
+278,34473,幼龙级YC117年特别版
+279,49711,Drekavac
+280,72811,Cyclone Fleet Issue
+281,72812,Ferox Navy Issue
+282,72869,Myrmidon Navy Issue
+283,72872,Prophecy Navy Issue
+284,78366,Alligator
+285,78369,Khizriel
+286,85086,Cenotaph
+287,16236,Coercer
+288,16238,Cormorant
+289,16240,Catalyst
+290,16242,Thrasher
+291,32840,InterBus Catalyst
+292,32842,Intaki Syndicate Catalyst
+293,32844,Inner Zone Shipping Catalyst
+294,32846,Quafe Catalyst
+295,32848,Aliastra Catalyst
+296,32872,Algos
+297,32874,Dragoon
+298,32876,Corax
+299,32878,Talwar
+300,33099,Nefantar Thrasher
+301,33877,Catalyst Serpentis Edition
+302,33879,Coercer Blood Raiders Edition
+303,33881,Cormorant Guristas Edition
+304,33883,Thrasher Thukker Tribe Edition
+305,42685,Sunesis
+306,49710,Kikimora
+307,73789,Coercer Navy Issue
+308,73794,Thrasher Fleet Issue
+309,73795,Cormorant Navy Issue
+310,73796,Catalyst Navy Issue
+311,78333,Mekubal
+312,78367,Mamba
+313,85087,Tholos
+314,22442,Eos
+315,22444,Sleipnir
+316,22446,Vulture
+317,22448,Absolution
+318,22466,Astarte
+319,22468,Claymore
+320,22470,Nighthawk
+321,22474,Damnation
+322,22452,Heretic
+323,22456,Sabre
+324,22460,Eris
+325,22464,Flycatcher
+326,22544,Hulk
+327,22546,Skiff
+328,22548,Mackinaw
+329,33683,Mackinaw ORE Development Edition
+330,23757,Archon
+331,23911,Thanatos
+332,23915,Chimera
+333,24483,Nidhoggur
+334,42132,Vanguard
+335,22778,Warp Disrupt Probe
+336,34260,Surgical Warp Disrupt Probe
+337,41402,Phobetor Warp Disrupt Probe
+338,13536,Mizuro Cybon
+339,13538,Hakim Stormare
+340,13541,Gotan Kreiss
+341,13544,Tobias Kruzhor
+342,13557,Raysere Giant
+343,13561,Ahremen Arkah
+344,13564,Draclira Merlonne
+345,13573,Tairei Namazoth
+346,13580,Vepas Minimala
+347,13584,Thon Eney
+348,13589,Kaikka Peunato
+349,13603,Estamel Tharchon
+350,13609,Brokara Ryver
+351,13615,Selynne Mardakar
+352,13622,Vizan Ankonin
+353,13635,Chelm Soran
+354,13654,Cormack Vaaja
+355,13659,Tuvan Orth
+356,13661,Brynn Jerdola
+357,13667,Setele Schellan
+358,13515,Domination Hijacker
+359,13516,Domination Rogue
+360,13517,Domination Outlaw
+361,13518,Domination Thug
+362,13519,Domination Ambusher
+363,13521,Domination Hunter
+364,13522,Domination Impaler
+365,13525,Domination Nomad
+366,13527,Domination Raider
+367,13528,Domination Ruffian
+368,22015,Psycho Hijacker
+369,22016,Psycho Rogue
+370,22017,Psycho Outlaw
+371,22018,Psycho Thug
+372,22019,Psycho Ruffian
+373,22020,Psycho Nomad
+374,22021,Psycho Ambusher
+375,22022,Psycho Raider
+376,22023,Psycho Hunter
+377,22024,Psycho Impaler
+378,26973,Domination Wang Chunger
+379,13520,Domination Depredator
+380,13523,Domination Crusher
+381,13524,Domination Smasher
+382,13526,Domination Predator
+383,13529,Domination Breaker
+384,13530,Domination Defeater
+385,13531,Domination Marauder
+386,13532,Domination Phalanx
+387,13533,Domination Liquidator
+388,13534,Domination Centurion
+389,13547,Dark Blood Arch Engraver
+390,13548,Dark Blood Arch Priest
+391,13549,Dark Blood Dark Priest
+392,13550,Dark Blood Arch Reaver
+393,13551,Dark Blood Arch Sage
+394,13552,Dark Blood Shadow Sage
+395,13553,Dark Blood Arch Templar
+396,13565,Dark Blood Priest
+397,13569,Dark Blood Revenant
+398,13570,Dark Blood Sage
+399,13545,Dark Blood Reaver
+400,13546,Dark Blood Follower
+401,13554,Dark Blood Diviner
+402,13555,Dark Blood Upholder
+403,13558,Dark Blood Collector
+404,13566,Dark Blood Raider
+405,13567,Dark Blood Herald
+406,13568,Dark Blood Seeker
+407,13571,Dark Blood Worshipper
+408,13574,Dark Blood Engraver
+409,24390,Sellsword Collector
+410,24391,Sellsword Raider
+411,24392,Sellsword Diviner
+412,24393,Sellsword Reaver
+413,24394,Sellsword Engraver
+414,24408,Sellsword Seeker
+415,22865,Domination Legionnaire
+416,22866,Domination Primus
+417,22867,Domination Tribuni
+418,22868,Domination Praefectus
+419,22869,Domination Tribunus
+420,22870,Domination Legatus
+421,22857,Domination Shatterer
+422,22858,Domination Defacer
+423,22859,Domination Haunter
+424,22860,Domination Defiler
+425,22861,Domination Seizer
+426,22862,Domination Trasher
+427,23293,Dark Blood Bishop
+428,23294,Dark Blood Seer
+429,23295,Dark Blood Shade
+430,23296,Dark Blood Fanatic
+431,23297,Dark Blood Phantom
+432,23298,Dark Blood Exorcist
+433,23287,Dark Blood Visionary
+434,23288,Dark Blood Converter
+435,23289,Dark Blood Templar
+436,23290,Dark Blood Devoter
+437,23291,Dark Blood Friar
+438,23292,Dark Blood Cleric
+439,23349,Dread Guristas Executor
+440,23350,Dread Guristas Enforcer
+441,23351,Dread Guristas Assaulter
+442,23352,Dread Guristas Assassin
+443,23353,Dread Guristas Death Dealer
+444,23354,Dread Guristas Revolter
+445,13575,Dread Guristas Killer
+446,13577,Dread Guristas Ascriber
+447,13586,Dread Guristas Inferno
+448,13587,Dread Guristas Abolisher
+449,13591,Dread Guristas Mortifier
+450,13592,Dread Guristas Eraser
+451,13595,Dread Guristas Nullifier
+452,13596,Dread Guristas Murderer
+453,13599,Dread Guristas Annihilator
+454,13600,Dread Guristas Silencer
+455,21998,Deuce Silencer
+456,21999,Deuce Ascriber
+457,22000,Deuce Killer
+458,23939,Deuce Murderer
+459,26871,Dini Mator
+460,23343,Dread Guristas Nihilist
+461,23344,Dread Guristas Anarchist
+462,23345,Dread Guristas Renegade
+463,23346,Dread Guristas Guerilla
+464,23347,Dread Guristas Terrorist
+465,23348,Dread Guristas Supremacist
+466,23942,Desperado Nihilist
+467,23943,Desperado Anarchist
+468,13576,Dread Guristas Arrogator
+469,13581,Dread Guristas Demolisher
+470,13582,Dread Guristas Despoiler
+471,13585,Dread Guristas Destructor
+472,13590,Dread Guristas Imputor
+473,13593,Dread Guristas Infiltrator
+474,13594,Dread Guristas Invader
+475,13597,Dread Guristas Plunderer
+476,13598,Dread Guristas Saboteur
+477,13604,Dread Guristas Wrecker
+478,21988,Ace Arrogator
+479,21989,Ace Imputor
+480,21990,Ace Infiltrator
+481,21991,Ace Invader
+482,21992,Ace Despoiler
+483,21993,Ace Saboteur
+484,21994,Ace Plunderer
+485,21995,Ace Wrecker
+486,21996,Ace Destructor
+487,21997,Ace Demolisher
+488,23394,True Sansha's Phantasm
+489,23395,True Sansha's Specter
+490,23396,True Sansha's Wraith
+491,23397,True Sansha's Devil
+492,23398,True Sansha's Daemon
+493,23399,True Sansha's Behemoth
+494,13605,True Sansha's Beast
+495,13611,True Sansha's Slaughterer
+496,13613,True Sansha's Juggernaut
+497,13618,True Sansha's Torturer
+498,13619,True Sansha's Hellhound
+499,13624,True Sansha's Ravager
+500,13626,True Sansha's Ravisher
+501,13630,True Sansha's Mutilator
+502,13631,True Sansha's Fiend
+503,13636,True Sansha's Execrator
+504,23391,True Sansha's Misshape
+505,23392,True Sansha's Cannibal
+506,23409,True Sansha's Devourer
+507,23410,True Sansha's Abomination
+508,23411,True Sansha's Monster
+509,23412,True Sansha's Horror
+510,13610,True Sansha's Butcher
+511,13612,True Sansha's Enslaver
+512,13616,True Sansha's Manslayer
+513,13617,True Sansha's Minion
+514,13623,True Sansha's Plague
+515,13625,True Sansha's Ravener
+516,13627,True Sansha's Savage
+517,13628,True Sansha's Scavenger
+518,13629,True Sansha's Servant
+519,13632,True Sansha's Slavehunter
+520,23463,Shadow Serpentis Wing Leader
+521,23464,Shadow Serpentis Squad Leader
+522,23465,Shadow Serpentis Platoon Leader
+523,23466,Shadow Serpentis Captain
+524,23467,Shadow Serpentis Captain Sentry
+525,23468,Shadow Serpentis High Captain
+526,13637,Shadow Serpentis Chief Watchman
+527,13638,Shadow Serpentis Chief Patroller
+528,13639,Shadow Serpentis Chief Scout
+529,13641,Shadow Serpentis Chief Spy
+530,13651,Shadow Serpentis Chief Protector
+531,13656,Shadow Serpentis Chief Sentinel
+532,13663,Shadow Serpentis Chief Safeguard
+533,13664,Shadow Serpentis Chief Guard
+534,13668,Shadow Serpentis Chief Defender
+535,13669,Shadow Serpentis Chief Infantry
+536,23457,Shadow Serpentis Trooper
+537,23458,Shadow Serpentis Soldier
+538,23459,Shadow Serpentis Infantry
+539,23460,Shadow Serpentis Sentinel
+540,23461,Shadow Serpentis Cannoneer
+541,23462,Shadow Serpentis Artillery
+542,13640,Shadow Serpentis Safeguard
+543,13642,Shadow Serpentis Guard
+544,13643,Shadow Serpentis Spy
+545,13644,Shadow Serpentis Watchman
+546,13645,Shadow Serpentis Scout
+547,13646,Shadow Serpentis Agent
+548,13647,Shadow Serpentis Defender
+549,13648,Shadow Serpentis Patroller
+550,13649,Shadow Serpentis Initiate
+551,13650,Shadow Serpentis Protector
+552,24369,Marauder Spy
+553,24370,Marauder Agent
+554,24371,Marauder Watchman
+555,24372,Marauder Patroller
+556,24373,Marauder Guard
+557,24374,Marauder Safeguard
+558,24375,Marauder Defender
+559,24376,Marauder Protector
+560,27732,Sentient Crippler Alvatis
+561,27733,Sentient Defeater Alvatis
+562,27734,Sentient Enforcer Alvatis
+563,27735,Sentient Exterminator Alvatis
+564,27736,Sentient Siege Alvatis
+565,27737,Sentient Striker Alvatis
+566,27722,Sentient Alvus Queen
+567,27723,Sentient Alvus Controller
+568,27724,Sentient Alvus Creator
+569,27725,Sentient Alvus Ruler
+570,27726,Sentient Domination Alvus
+571,27727,Sentient Matriarch Alvus
+572,27728,Sentient Patriarch Alvus
+573,27729,Sentient Spearhead Alvus
+574,27730,Sentient Supreme Alvus Parasite
+575,27731,Sentient Swarm Preserver Alvus
+576,27738,Sentient Annihilator Alvum
+577,27739,Sentient Atomizer Alvum
+578,27740,Sentient Bomber Alvum
+579,27741,Sentient Destructor Alvum
+580,27742,Sentient Devastator Alvum
+581,27743,Sentient Disintegrator Alvum
+582,27744,Sentient Nuker Alvum
+583,27745,Sentient Violator Alvum
+584,27746,Sentient Viral Infector Alvum
+585,27747,Sentient Wrecker Alvum
+586,27748,Sentient Dismantler Alvior
+587,27749,Sentient Marauder Alvior
+588,27750,Sentient Predator Alvior
+589,27751,Sentient Ripper Alvior
+590,27752,Sentient Shatter Alvior
+591,27753,Sentient Shredder Alvior
+592,27754,Sentient Barracuda Alvi
+593,27755,Sentient Decimator Alvi
+594,27756,Sentient Devilfish Alvi
+595,27757,Sentient Hunter Alvi
+596,27758,Sentient Infester Alvi
+597,27759,Sentient Raider Alvi
+598,27760,Sentient Render Alvi
+599,27761,Sentient Silverfish Alvi
+600,27762,Sentient Splinter Alvi
+601,27763,Sentient Sunder Alvi
+602,13535,Domination Commander
+603,13537,Domination General
+604,13539,Domination War General
+605,13540,Domination Saint
+606,13542,Domination Nephilim
+607,13543,Domination Warlord
+608,22871,Domination Malakim
+609,22872,Domination Throne
+610,22873,Domination Cherubim
+611,22874,Domination Seraphim
+612,13556,Dark Blood Prophet
+613,13559,Dark Blood Oracle
+614,13560,Dark Blood Archbishop
+615,13562,Dark Blood Apostle
+616,13563,Dark Blood Harbinger
+617,13572,Dark Blood Archon
+618,23299,Dark Blood Monsignor
+619,23300,Dark Blood Cardinal
+620,23301,Dark Blood Patriarch
+621,23302,Dark Blood Pope
+622,13578,Dread Guristas Dismantler
+623,13579,Dread Guristas Eliminator
+624,13583,Dread Guristas Obliterator
+625,13588,Dread Guristas Eradicator
+626,13601,Dread Guristas Extinguisher
+627,13602,Dread Guristas Exterminator
+628,23355,Dread Guristas Destroyer
+629,23356,Dread Guristas Conquistador
+630,23357,Dread Guristas Massacrer
+631,23358,Dread Guristas Usurper
+632,13606,True Sansha's Lord
+633,13614,True Sansha's Slave Lord
+634,13620,True Sansha's Mutant Lord
+635,13621,True Sansha's Plague Lord
+636,13633,True Sansha's Beast Lord
+637,13634,True Sansha's Savage Lord
+638,23400,True Sansha's Overlord
+639,23401,True Sansha's Dark Lord
+640,23402,True Sansha's Dread Lord
+641,23403,True Sansha's Tyrant
+642,13652,Shadow Serpentis Vice Admiral
+643,13653,Shadow Serpentis Rear Admiral
+644,13658,Shadow Serpentis Commodore
+645,13660,Shadow Serpentis Baron
+646,13665,Shadow Serpentis Port Admiral
+647,13666,Shadow Serpentis Flotilla Admiral
+648,23469,Shadow Serpentis Admiral
+649,23470,Shadow Serpentis High Admiral
+650,23471,Shadow Serpentis Grand Admiral
+651,23472,Shadow Serpentis Lord Admiral
+652,28352,Rorqual
+653,33687,Rorqual ORE Development Edition
+654,11174,Keres
+655,11190,Sentinel
+656,11194,Kitsune
+657,11387,Hyena
+658,60765,Raiju
+659,11995,Onyx
+660,12013,Broadsword
+661,12017,Devoter
+662,12021,Phobos
+663,35781,Fiend
+664,60764,Laelaps
+665,22428,Redeemer
+666,22430,Sin
+667,22436,Widow
+668,22440,Panther
+669,44996,Marshal
+670,85236,Python
+671,28659,Paladin
+672,28661,Kronos
+673,28665,Vargur
+674,28710,Golem
+675,34219,Paladin Blood Raider Edition
+676,34221,Paladin Kador Edition
+677,34223,Paladin Tash-Murkon Edition
+678,34231,Golem Guristas Edition
+679,34233,Golem Kaalakiota Edition
+680,34235,Golem Nugoeihuvi Edition
+681,34241,Kronos Police Edition
+682,34243,Kronos Quafe Edition
+683,34245,Kronos Inner Zone Shipping Edition
+684,34253,Vargur Justice Edition
+685,34255,Vargur Krusual Edition
+686,34257,Vargur Nefantar Edition
+687,47727,GFX Test Vargur 1/2
+688,47728,GFX Test Vargur 2/2
+689,11959,Rook
+690,11961,Huginn
+691,11971,Lachesis
+692,20125,Curse
+693,29984,Tengu
+694,29986,Legion
+695,29988,Proteus
+696,29990,Loki
+697,32959,Unit D-34343
+698,32960,Unit F-435454
+699,32961,Unit P-343554
+700,32962,Unit W-634
+701,33697,Prospect
+702,37135,Endurance
+703,33864,Mordu’s Special Warfare Unit Operative
+704,33865,Mordu’s Special Warfare Unit Specialist
+705,33866,Mordu’s Special Warfare Unit Commander
+706,34317,Confessor
+707,34562,Svipul
+708,34828,Jackdaw
+709,35683,Hecate
+710,34495,Drifter Battleship
+711,34561,Drifter Battleship
+712,50093,Drifter Battleship
+713,37473,Drifter Response Battleship
+714,37480,Bifrost
+715,37481,Pontifex
+716,37482,Stork
+717,37483,Magus
+718,52254,Draugur
+719,37599,Cenobite I
+720,40345,Scarab I
+721,40346,Siren I
+722,40347,Dromi I
+723,40568,Cenobite II
+724,40569,Scarab II
+725,40570,Siren II
+726,40571,Dromi II
+727,45651,Able_PLACEHOLDER
+728,83591,Imperial Navy Cenobite
+729,83592,Caldari Navy Scarab
+730,83593,Federation Navy Siren
+731,83594,Republic Fleet Dromi
+732,37604,Apostle
+733,37605,Minokawa
+734,37606,Lif
+735,37607,Ninazu
+736,42133,Venerable
+737,42242,Dagon
+738,45645,Loggerhead
+739,23055,Templar I
+740,23057,Dragonfly I
+741,23059,Firbolg I
+742,23061,Einherji I
+743,40358,Equite I
+744,40359,Locust I
+745,40360,Satyr I
+746,40361,Gram I
+747,40552,Equite II
+748,40553,Gram II
+749,40554,Locust II
+750,40555,Satyr II
+751,40556,Templar II
+752,40557,Dragonfly II
+753,40558,Firbolg II
+754,40559,Einherji II
+755,45669,Baker_PLACEHOLDER
+756,45671,Charlie_PLACEHOLDER
+757,83579,Imperial Navy Templar
+758,83582,Caldari Navy Dragonfly
+759,83583,Federation Navy Firbolg
+760,83584,Republic Fleet Einherji
+761,83585,Imperial Navy Equite
+762,83586,Caldari Navy Locust
+763,83587,Federation Navy Satyr
+764,83589,Republic Fleet Gram
+765,2948,Shadow
+766,32325,Cyclops I
+767,32340,Malleus I
+768,32342,Tyrfing I
+769,32344,Mantis I
+770,40362,Ametat I
+771,40363,Termite I
+772,40364,Antaeus I
+773,40365,Gungnir I
+774,40560,Ametat II
+775,40561,Malleus II
+776,40562,Antaeus II
+777,40563,Cyclops II
+778,40564,Gungnir II
+779,40565,Tyrfing II
+780,40566,Termite II
+781,40567,Mantis II
+782,45673,Dog_PLACEHOLDER
+783,45675,Easy_PLACEHOLDER
+784,35832,Astrahus
+785,35833,Fortizar
+786,35834,Keepstar
+787,40340,Upwell Palatine Keepstar
+788,47512,'Moreau' Fortizar
+789,47513,'Draccous' Fortizar
+790,47514,'Horizon' Fortizar
+791,47515,'Marginis' Fortizar
+792,47516,'Prometheus' Fortizar
+793,37461,Angel Dreadnought
+794,41396,Domination Dreadnought
+795,37462,Domination Titan
+796,37463,Blood Dreadnought
+797,41397,Dark Blood Dreadnought
+798,37464,Dark Blood Titan
+799,37465,Guristas Dreadnought
+800,41398,Dread Guristas Dreadnought
+801,37466,Dread Guristas Titan
+802,37467,Sansha's Dreadnought
+803,41399,True Sansha's Dreadnought
+804,40671,True Sansha's Supercarrier
+805,37468,Serpentis Dreadnought
+806,41400,Shadow Serpentis Dreadnought
+807,40637,Shadow Serpentis Titan
+808,37470,Infested Carrier
+809,41401,Sentient Infested Carrier
+810,37471,Sentient Infested Supercarrier
+811,42533,♦ Venture
+812,42534,♦ Retriever
+813,42535,♦ Skiff
+814,49964,Frostline Gatherer
+815,42654,♦ Bestower
+816,42655,♦ Impel
+817,42656,♦ Badger
+818,42657,♦ Bustard
+819,42658,♦ Iteron Mark V
+820,42659,♦ Occator
+821,42660,♦ Mammoth
+822,42661,♦ Mastodon
+823,43612,♦ Badger
+824,43613,♦ Bustard
+825,53560,♦ Iteron Mk. V
+826,53561,♦ Charon
+827,53569,♦ Obelisk
+828,53570,♦ Bestower
+829,42841,♦ Tormentor
+830,42842,♦ Inquisitor
+831,42843,♦ Executioner
+832,42845,♦ Crucifier
+833,42846,♦ Punisher
+834,43563,♦ Kestrel
+835,43564,♦ Bantam
+836,43565,♦ Condor
+837,43566,♦ Merlin
+838,43567,♦ Griffin
+839,43574,♦ Incursus
+840,43575,♦ Navitas
+841,43576,♦ Atron
+842,43577,♦ Maulus
+843,43578,♦ Tristan
+844,43585,♦ Rifter
+845,43586,♦ Burst
+846,43587,♦ Slasher
+847,43588,♦ Vigil
+848,43589,♦ Breacher
+849,43596,♦ Punisher
+850,43597,♦ Inquisitor
+851,43598,♦ Executioner
+852,43599,♦ Crucifier
+853,43600,♦ Cruor
+854,43614,♦ Kestrel
+855,43615,♦ Bantam
+856,43616,♦ Condor
+857,43617,♦ Worm
+858,43618,♦ Griffin
+859,43633,♦ Dramiel
+860,43634,♦ Swordspine
+861,43635,♦ Fury
+862,43636,♦ Medusa
+863,43638,♦ Lynx
+864,43644,Barracuda Drone
+865,43645,Atomizer Drone
+866,43646,Infester Drone
+867,43647,Splinter Drone
+868,43648,Sunder Drone
+869,43653,♦ Succubus
+870,43654,♦ Ravener
+871,43655,♦ Imp
+872,44107,♦ Succubus
+873,44108,♦ Succubus
+874,44953,♦ Purifier
+875,45680,♦ Cruor
+876,46052,♦ Cruor
+877,46053,♦ Worm
+878,46058,♦ Daredevil
+879,46061,♦ Dramiel
+880,46066,♦ Punisher
+881,46070,♦ Merlin
+882,46074,♦ Incursus
+883,46078,♦ Rifter
+884,46382,♦ Kestrel
+885,47194,♦ test_drone_damage
+886,47195,♦ test_drone_logi
+887,47196,♦ test_damage
+888,47197,♦ test_ewar
+889,57582,AEGIS Security Pacifier
+890,59174,♦ Succubus
+891,59586,SCC Security Responder
+892,60145,SCC Security Interceptor
+893,60326,AEGIS Security Lancer
+894,60327,AEGIS Security Hobelar
+895,60726,AEGIS Response Arquebus
+896,43557,♦ Omen
+897,43558,♦ Augoror
+898,43559,♦ Arbitrator
+899,43560,♦ Maller
+900,43568,♦ Caracal
+901,43569,♦ Osprey
+902,43570,♦ Moa
+903,43571,♦ Blackbird
+904,43579,♦ Thorax
+905,43580,♦ Exequror
+906,43581,♦ Celestis
+907,43582,♦ Vexor
+908,43590,♦ Rupture
+909,43591,♦ Scythe
+910,43592,♦ Bellicose
+911,43593,♦ Stabber
+912,43601,♦ Omen
+913,43602,♦ Augoror
+914,43603,♦ Arbitrator
+915,43604,♦ Ashimmu
+916,43622,♦ Caracal
+917,43623,♦ Osprey
+918,43624,♦ Gila
+919,43625,♦ Blackbird
+920,43641,♦ Cynabal
+921,43642,♦ Ixion
+922,43649,♦ Annihilator Drone
+923,43656,♦ Phantasm
+924,46054,♦ Ashimmu
+925,46056,♦ Gila
+926,46059,♦ Vigilant
+927,46062,♦ Cynabal
+928,46067,♦ Omen
+929,46071,♦ Caracal
+930,46075,♦ Thorax
+931,46079,♦ Rupture
+932,46581,♦ Caracal
+933,46760,♦ Moa
+934,48583,♦ DED Special Operation Captain
+935,57584,AEGIS Security Enforcer
+936,59175,♦ Phantasm
+937,59585,SCC Security Striker
+938,60143,SCC Security Neutralizer
+939,60153,SCC Security Jammer
+940,60323,AEGIS Security Demilancer
+941,60324,AEGIS Security Picador
+942,60325,AEGIS Security Gendarme
+943,60725,AEGIS Fireteam Culverin
+944,43561,♦ Apocalypse
+945,43562,♦ Armageddon
+946,43572,♦ Raven
+947,43573,♦ Scorpion
+948,43583,♦ Megathron
+949,43584,♦ Dominix
+950,43594,♦ Tempest
+951,43595,♦ Typhoon
+952,43605,♦ Apocalypse
+953,43606,♦ Bhaalgorn
+954,43626,♦ Raven
+955,43627,♦ Rattlesnake
+956,43643,♦ Machariel
+957,43650,♦ Infested Dominix
+958,43657,♦ Nightmare
+959,45055,♦ Bhaalgorn
+960,45056,♦ Apocalypse
+961,46055,♦ Bhaalgorn
+962,46057,♦ Rattlesnake
+963,46060,♦ Vindicator
+964,46063,♦ Machariel
+965,46069,♦ Apocalypse
+966,46073,♦ Raven
+967,46077,♦ Megathron
+968,46081,♦ Tempest
+969,46523,♦ Rattlesnake
+970,46524,♦ Raven
+971,47198,♦ test_boss
+972,57586,AEGIS Security Marshal
+973,59176,♦ Nightmare
+974,59584,SCC Security Commander
+975,60321,AEGIS Security Cataphract
+976,60322,AEGIS Security Carabinier
+977,60724,AEGIS Fireteam Ribauldequin
+978,62250,♦ Infested Abaddon
+979,62251,♦ Infested Dominix
+980,62252,♦ Infested Raven
+981,62253,♦ Infested Typhoon
+982,45006,♦ Sotiyo
+983,45471,♦ Molok
+984,45472,♦ Molok
+985,45473,♦ Dagon
+986,45470,♦ Chemosh
+987,45474,♦ Chemosh
+988,46653,♦ Caiman
+989,46654,♦ Caiman
+990,60942,Starwight Rakshasa
+991,60943,Moonwight Rakshasa
+992,61292,Darkwight Rakshasa
+993,63154,♦ Forgemaster Caiman
+994,64346,♦ Officer Chemosh
+995,46046,♦ Orca
+996,46047,♦ Orca
+997,46048,♦ Orca
+998,46049,♦ Orca
+999,48134,Justice Liberator
+1000,53534,♦ Bowhead
+1001,53568,♦ Providence
+1002,60732,AEGIS Secure Transfer Barge
+1003,46068,♦ Harbinger
+1004,46072,♦ Drake
+1005,46076,♦ Brutix
+1006,46080,♦ Hurricane
+1007,46363,Guristas Pirates Stronghold
+1008,46364,Blood Raiders Stronghold
+1009,71116,Amarr Empire Stronghold
+1010,71117,Caldari State Stronghold
+1011,71118,Gallente Federation Stronghold
+1012,71119,Minmatar Republic Stronghold
+1013,45534,Monitor
+1014,84950,Sila Aajai
+1015,84926,Ramaku Basta
+1016,84952,Ryhad Sethrim
+1017,84945,Makra Ozman
+1018,84953,Hanaruwa Oittenen
+1019,84946,Panola Paatama
+1020,84954,Nija Zufa
+1021,84947,Usaras Koirola
+1022,84951,Gara Minsk
+1023,84948,Asine Hitama
