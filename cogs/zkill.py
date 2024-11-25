@@ -184,8 +184,6 @@ class zKill(commands.Cog):
         for guild_id, guild_config in config.GUILD_SETTINGS.items():
             for channel_id, filters in guild_config.get("killfeed_channels", {}).items():
                 # Determine the target for filtering (attacker or victim)
-                #apply_to_attacker = filters.get("apply_to_attacker", 0)
-                # is_npc_filter = filters.get("is_npc", 0)
                 filter_region_id = filters.get("region_id")
                 filter_constellation_id = filters.get("constellation_id")
                 filter_system_id = filters.get("solar_system_id")
@@ -208,52 +206,42 @@ class zKill(commands.Cog):
                     continue # Skip if system doesn't match
                 
                 # Match victim_group_id using lookup_dict if specified
+                victim_matched = True
                 if victim_group_id_filter:
-                    matched = False
-                    for entity in victim:
-                        ship_type_id = entity.get("ship_type_id")
-                        if not ship_type_id:
-                            continue
-                        group_id = config.entity_lookup_dict.get(ship_type_id, {}).get("groupID")
-                        if group_id == victim_group_id_filter:
-                            matched = True
-                            break
-                    if not matched:
-                        continue # Skip if no matching group_id found
+                    victim_matched = any(
+                        config.entity_lookup_dict.get(entity.get("ship_type_id"), {}).get("groupID") == victim_group_id_filter 
+                        for entity in victim
+                    )
                 
                 # Match victim_type_id filter directly against ship_type_id
-                if victim_type_id_filter:
-                    matched = any(entity.get("ship_type_id") == victim_type_id_filter for entity in victim)
-                    if not matched:
-                        continue # Skip if no matching type_id is found
+                if victim_type_id_filter and not any(entity.get("ship_type_id") == victim_type_id_filter for entity in victim):
+                    victim_matched = False
+                
 
                 # Match attacker_group_id using lookup_dict if specified
+                attacker_matched = True
                 if attackers_group_id_filter:
-                    matched = False
-                    for entity in attackers:
-                        ship_type_id = entity.get("ship_type_id")
-                        if not ship_type_id:
-                            continue
-                        group_id = config.entity_lookup_dict.get(ship_type_id, {}).get("groupID")
-                        if group_id == attackers_group_id_filter:
-                            matched = True
-                            break
-                    if not matched:
-                        continue # Skip if no matching group_id found
+                    attacker_matched = any(
+                        config.entity_lookup_dict.get(entity.get("ship_type_id"), {}).get("groupID") == attackers_group_id_filter
+                        for entity in attackers
+                    )
                 
                 # Match attacker_type_id filter directly against ship_type_id
-                if attackers_type_id_filter:
-                    matched = any(entity.get("ship_type_id") == attackers_type_id_filter for entity in attackers)
-                    if not matched:
-                        continue # Skip if no matching type_id is found
+                if attackers_type_id_filter and not any(
+                    entity.get("shipy_type_id") == attackers_type_id_filter for entity in attackers
+                ):
+                    attacker_matched = False
 
                 # If apply_to_attacker is and is_npc is set, check attackers for NPCs
-                if attacker_npc_filter == 1:
-                    if not any(attacker.get("faction_id") for attacker in attackers):
-                        continue # Skip if no NPC attackers are present
-
-                # Add channel to matching list
-                matching_channels.append(channel_id)
+                if attacker_npc_filter == 1 and not any(
+                        attacker.get("faction_id") 
+                        for attacker in attackers
+                    ):
+                        attacker_matched = False
+                
+                # Check if either victim or attacker matches
+                if victim_matched or attacker_matched:
+                    matching_channels.append(channel_id)
 
 
         for channel_id in matching_channels:
