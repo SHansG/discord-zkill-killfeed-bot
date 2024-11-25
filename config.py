@@ -46,15 +46,20 @@ filter_entity_type_dict = {
     "No Filter": {"No Filter":0}
 }
 
-filter_apply_to_attacker_dict = {
+filter_attacker_npc = {
     "Yes": 1,
     "No": 0
 }
 
-filter_is_npc_dict = {
-    "Yes": 1,
-    "No": 0
-}
+# filter_apply_to_attacker_dict = {
+#     "Yes": 1,
+#     "No": 0
+# }
+
+# filter_is_npc_dict = {
+#     "Yes": 1,
+#     "No": 0
+# }
 
 # location lookup dict for filter logic in zkill cog
 merged_regions_constellations_systems_df = pd.read_csv(f"{ROOT_DIR}/res/map_regions_constellations_systems_merged.csv", index_col=0)

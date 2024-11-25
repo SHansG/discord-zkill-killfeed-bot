@@ -65,33 +65,35 @@ class zKill(commands.Cog):
     
     async def websocket_listener(self):
         """Connect to the WebSocket and listen for data."""
+        while True:
+                try:
+                    async with websockets.connect(self.websocket_url) as websocket:
+                        self.websocket = websocket
+                        print("Connected to WebSocket")
+                        # subscribe with filters
+                        # await self.update_subscriptions()
+                        # TODO: update channels???
+                        #Test payload
+                        await self.websocket.send(json.dumps(self.payload))
+                        while True:
+                            try:
+                                # Receive data from WebSocket
+                                message = await websocket.recv()
+                                data = json.loads(message)
+                                # add to queue
+                                await self.killmail_queue.put(data)
+                            except websockets.ConnectionClosed as e:
+                                print(f"Websocket closed: {e}")
+                                break
+                            except Exception as e:
+                                print(f"Error receiving data: {e}")
+                                break
+                except Exception as e:
+                    print(f"WebSocket connection error: {e}")
 
-        try:
-            async with websockets.connect(self.websocket_url) as websocket:
-                self.websocket = websocket
-                print("Connected to WebSocket")
-
-                # subscribe with filters
-                # await self.update_subscriptions()
-
-                # TODO: update channels???
-                
-                #Test payload
-                await self.websocket.send(json.dumps(self.payload))
-
-                while True:
-                    # Receive data from WebSocket
-                    message = await websocket.recv()
-
-                    data = json.loads(message)
-
-                    # add to queue
-                    await self.killmail_queue.put(data)
-                    
-        except Exception as e:
-            print(f"WebSocket connection error: {e}")
-            await asyncio.sleep(5)  # Retry after a delay
-            self.loop.create_task(self.websocket_listener())
+                #  Delay before reconnecting
+                print("Reconnecting in 5 seconds...")
+                await asyncio.sleep(5)
 
     async def queue_processor(self):
         """Process killmails from the queue."""
@@ -170,7 +172,7 @@ class zKill(commands.Cog):
     async def route_killmail(self, killmail):
         """Route received killmail to appropriate Discord channels."""
 
-        victim = killmail.get("victim", {})
+        victim = [killmail.get("victim", {})]
         attackers = killmail.get("attackers",[])
         solar_system_id = killmail.get("solar_system_id")
 
@@ -182,12 +184,16 @@ class zKill(commands.Cog):
         for guild_id, guild_config in config.GUILD_SETTINGS.items():
             for channel_id, filters in guild_config.get("killfeed_channels", {}).items():
                 # Determine the target for filtering (attacker or victim)
-                apply_to_attacker = filters.get("apply_to_attacker", 0)
-                is_npc_filter = filters.get("is_npc", 0)
+                #apply_to_attacker = filters.get("apply_to_attacker", 0)
+                # is_npc_filter = filters.get("is_npc", 0)
                 filter_region_id = filters.get("region_id")
                 filter_constellation_id = filters.get("constellation_id")
-                group_id_filter = filters.get("group_id", None)
-                type_id_filter = filters.get("type_id", None)
+                filter_system_id = filters.get("solar_system_id")
+                attackers_group_id_filter = filters.get("attacker_group_id", None)
+                attackers_type_id_filter = filters.get("attacker_type_id", None)
+                victim_group_id_filter = filters.get("victim_group_id", None)
+                victim_type_id_filter = filters.get("victim_type_id", None)
+                attacker_npc_filter = filters.get("attacker_npc", 0)
 
                 # Match region_id if present in filters
                 if filter_region_id and filter_region_id != region_id:
@@ -196,32 +202,53 @@ class zKill(commands.Cog):
                 # Match constellation_id if present in filters
                 if filter_constellation_id and filter_constellation_id != constellation_id:
                     continue # Skip if constellation doesn't match
+
+                # Match system_id if present in filters
+                if filter_system_id and filter_system_id != solar_system_id:
+                    continue # Skip if system doesn't match
                 
-                # Determine the target to scan
-                target = attackers if apply_to_attacker == 1 else [victim]
-
-                # Match type_id filter directly against ship_type_id
-                if type_id_filter:
-                    matched = any(entity.get("ship_type_id") == type_id_filter for entity in target)
-                    if not matched:
-                        continue # Skip if no matching type_id is found
-
-                # Match group_id using lookup_dict if specified
-                if group_id_filter:
+                # Match victim_group_id using lookup_dict if specified
+                if victim_group_id_filter:
                     matched = False
-                    for entity in target:
+                    for entity in victim:
                         ship_type_id = entity.get("ship_type_id")
                         if not ship_type_id:
                             continue
                         group_id = config.entity_lookup_dict.get(ship_type_id, {}).get("groupID")
-                        if group_id == group_id_filter:
+                        if group_id == victim_group_id_filter:
                             matched = True
                             break
                     if not matched:
                         continue # Skip if no matching group_id found
+                
+                # Match victim_type_id filter directly against ship_type_id
+                if victim_type_id_filter:
+                    matched = any(entity.get("ship_type_id") == victim_type_id_filter for entity in victim)
+                    if not matched:
+                        continue # Skip if no matching type_id is found
+
+                # Match attacker_group_id using lookup_dict if specified
+                if attackers_group_id_filter:
+                    matched = False
+                    for entity in attackers:
+                        ship_type_id = entity.get("ship_type_id")
+                        if not ship_type_id:
+                            continue
+                        group_id = config.entity_lookup_dict.get(ship_type_id, {}).get("groupID")
+                        if group_id == attackers_group_id_filter:
+                            matched = True
+                            break
+                    if not matched:
+                        continue # Skip if no matching group_id found
+                
+                # Match attacker_type_id filter directly against ship_type_id
+                if attackers_type_id_filter:
+                    matched = any(entity.get("ship_type_id") == attackers_type_id_filter for entity in attackers)
+                    if not matched:
+                        continue # Skip if no matching type_id is found
 
                 # If apply_to_attacker is and is_npc is set, check attackers for NPCs
-                if apply_to_attacker == 1 and is_npc_filter == 1:
+                if attacker_npc_filter == 1:
                     if not any(attacker.get("faction_id") for attacker in attackers):
                         continue # Skip if no NPC attackers are present
 
@@ -290,17 +317,17 @@ class zKill(commands.Cog):
             for k, v in options.items() if current.lower() in k.lower()
         ][:25]
 
-    async def entity_filter_autocompletion(
+    async def victim_filter_autocompletion(
             self,
             interaction: discord.Interaction,
-            current: str      
+            current: str    
         ):
         return [
             app_commands.Choice(name=k, value=k)
             for k, v in config.filter_entity_type_dict.items() if current.lower() in k.lower()
         ][:25]
-    
-    async def entity_type_autocompletion(
+
+    async def victim_type_autocompletion(
             self,
             interaction: discord.Interaction,
             current: str
@@ -316,74 +343,94 @@ class zKill(commands.Cog):
             for k, v in options.items() if current.lower() in k.lower()
         ][:25]
 
-    async def apply_to_attacker_autocompletion(
+    async def attacker_filter_autocompletion(
+            self,
+            interaction: discord.Interaction,
+            current: str      
+        ):
+        return [
+            app_commands.Choice(name=k, value=k)
+            for k, v in config.filter_entity_type_dict.items() if current.lower() in k.lower()
+        ][:25]
+    
+    async def attacker_type_autocompletion(
+            self,
+            interaction: discord.Interaction,
+            current: str
+        ):
+        # access the selected entity filter from interaction.namespace
+        selected_entity_filter = interaction.namespace.entity_filter
+
+        # get lookup dict for selected entity filter
+        options = config.filter_entity_type_dict.get(selected_entity_filter)
+
+        return [
+            app_commands.Choice(name=k, value=k)
+            for k, v in options.items() if current.lower() in k.lower()
+        ][:25]
+
+    async def attacker_npc_autocompletion(
             self,
             interaction: discord.Interaction,
             current: str
         ):
         return [
             app_commands.Choice(name=k, value=k)
-            for k, v in config.filter_apply_to_attacker_dict.items() if current.lower() in k.lower()
-        ]
-    
-    async def is_npc_autocompletion(
-            self,
-            interaction: discord.Interaction,
-            current: str    
-        ):
-        return [
-            app_commands.Choice(name=k, value=k)
-            for k, v in config.filter_is_npc_dict.items() if current.lower() in k.lower()
+            for k,v in config.filter_attacker_npc_dict.items() if current.lower() in k.lower()
         ]
 
     # previously it wasnt showing autocomplete results for type_id due to wrong type (str changed to int)
     @app_commands.command(name='killfeed')
     @app_commands.autocomplete(
         location_filter=location_filter_autocompletion,
-        location_type=location_type_autocompletion,
-        entity_filter=entity_filter_autocompletion,
-        entity_type=entity_type_autocompletion,
-        apply_to_attacker_filter=apply_to_attacker_autocompletion,
-        is_npc_filter=is_npc_autocompletion
+        location_name=location_type_autocompletion,
+        victim_filter=victim_filter_autocompletion,
+        victim_entity_name=victim_type_autocompletion,
+        attacker_filter=attacker_filter_autocompletion,
+        attacker_entity_name=attacker_type_autocompletion,
+        attacker_npc=attacker_npc_autocompletion
     )
     @commands.has_permissions(manage_guild=True)
     async def broadcast_killfeed_to_channel(
             self, 
             interaction: discord.Interaction, 
             location_filter: str,
-            location_type: str,
-            entity_filter: str,
-            entity_type: str,
-            apply_to_attacker_filter: str,
-            is_npc_filter: str
+            location_name: str,
+            victim_filter: str,
+            victim_entity_name: str,
+            attacker_filter: str,
+            attacker_entity_name: str,
+            attacker_npc: str,
         ) -> None:
         """adds killfeed broadcasting to text channel"""
         guild_id = interaction.guild.id
         channel = interaction.channel
 
         current_location_filter = config.filter_location_type_dict.get(location_filter)
-        current_location_type = current_location_filter.get(location_type)
-        current_entity_filter = config.filter_entity_type_dict.get(entity_filter)
-        current_entity_type = current_entity_filter.get(entity_type)
-        current_apply_to_attacker = config.filter_apply_to_attacker_dict.get(apply_to_attacker_filter)
-        current_is_npc_filter = config.filter_is_npc_dict.get(is_npc_filter)
+        current_location_id = current_location_filter.get(location_name)
+        current_victim_filter = config.filter_entity_type_dict.get(victim_filter)
+        current_victim_entity_id = current_victim_filter.get(victim_entity_name)
+        current_attacker_filter = config.filter_entity_type_dict.get(attacker_filter)
+        current_attacker_entity_id = current_attacker_filter.get(attacker_entity_name)
+        current_attacker_npc = config.filter_attacker_npc.get(attacker_npc)
 
         current_settings = config.get_settings(guild_id)
 
         if str(channel.id) not in current_settings["killfeed_channels"]:
             current_settings["killfeed_channels"][str(channel.id)] = {
-                    f"{location_filter.lower()}_id":current_location_type,
-                    "apply_to_attacker":current_apply_to_attacker,
-                    "is_npc": current_is_npc_filter
+                    f"{location_filter.lower()}_id":current_location_id,
+                    "attacker_npc": current_attacker_npc
                 }
             
-            if current_entity_type != 0:
-                current_settings["killfeed_channels"][str(channel.id)][f"{entity_filter.lower()}_id"]=current_entity_type
+            if current_victim_entity_id != 0:
+                current_settings["killfeed_channels"][str(channel.id)][f"{victim_filter.lower()}_id"]=current_victim_entity_id
 
+            if current_attacker_entity_id != 0:
+                current_settings["killfeed_channels"][str(channel.id)][f"{attacker_filter.lower()}_id"]=current_attacker_entity_id
 
             config.update_settings(guild_id, current_settings)
             # await self.update_subscriptions()
-            await interaction.response.send_message(f"Text channel {channel.mention} has been assigned for killfeed broadcasting with parameters:\n```location_filter: {location_filter}\nlocation_type: {location_type}\nentity_filter: {entity_filter}\nentity_type: {current_entity_type}\napply_to_attacker_filter: {current_apply_to_attacker}\nis_npc_filter: {current_is_npc_filter}```")
+            await interaction.response.send_message(f"Text channel {channel.mention} has been assigned for killfeed broadcasting with parameters:\n```location_filter: {location_filter}\nlocation_type: {location_name}\nvictim_filter: {victim_filter}\nvictim_name: {victim_entity_name}\nattacker_filter: {attacker_filter}\nattacker_name: {attacker_entity_name}\nattacker_npc: {attacker_npc}```")
         else:
             await interaction.response.send_message(f'Text channel {channel.mention} has already been assigned for killfeed broadcasting.')
 
