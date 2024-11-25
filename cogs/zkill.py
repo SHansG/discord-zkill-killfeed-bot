@@ -333,7 +333,7 @@ class zKill(commands.Cog):
             current: str
         ):
         # access the selected entity filter from interaction.namespace
-        selected_entity_filter = interaction.namespace.entity_filter
+        selected_entity_filter = interaction.namespace.victim_filter
 
         # get lookup dict for selected entity filter
         options = config.filter_entity_type_dict.get(selected_entity_filter)
@@ -359,7 +359,7 @@ class zKill(commands.Cog):
             current: str
         ):
         # access the selected entity filter from interaction.namespace
-        selected_entity_filter = interaction.namespace.entity_filter
+        selected_entity_filter = interaction.namespace.attacker_filter
 
         # get lookup dict for selected entity filter
         options = config.filter_entity_type_dict.get(selected_entity_filter)
