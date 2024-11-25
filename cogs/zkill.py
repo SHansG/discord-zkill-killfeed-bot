@@ -412,7 +412,7 @@ class zKill(commands.Cog):
         current_victim_entity_id = current_victim_filter.get(victim_entity_name)
         current_attacker_filter = config.filter_entity_type_dict.get(attacker_filter)
         current_attacker_entity_id = current_attacker_filter.get(attacker_entity_name)
-        current_attacker_npc = config.filter_attacker_npc.get(attacker_npc)
+        current_attacker_npc = config.filter_attacker_npc_dict.get(attacker_npc)
 
         current_settings = config.get_settings(guild_id)
 
