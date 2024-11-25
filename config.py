@@ -46,7 +46,7 @@ filter_entity_type_dict = {
     "No Filter": {"No Filter":0}
 }
 
-filter_attacker_npc = {
+filter_attacker_npc_dict = {
     "Yes": 1,
     "No": 0
 }
