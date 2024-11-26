@@ -236,6 +236,10 @@ class zKill(commands.Cog):
                     # Check for NPC attackers
                     npc_present = any(attacker.get("faction_id") for attacker in attackers)
                     attacker_matched = attacker_matched and npc_present
+                if attacker_npc_filter == 1 and not attackers_group_id_filter and not attackers_type_id_filter:
+                    # Check for NPC attackers
+                    npc_present = any(attacker.get("faction_id") for attacker in attackers)
+                    attacker_matched = npc_present
                 if not attackers_group_id_filter and not attackers_type_id_filter and attacker_npc_filter == 0:
                     # If no attacker filters are provided, consider attacker matched
                     attacker_matched = True
