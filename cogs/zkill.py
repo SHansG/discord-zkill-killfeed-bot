@@ -192,6 +192,9 @@ class zKill(commands.Cog):
                 victim_group_id_filter = filters.get("victim_group_id", None)
                 victim_type_id_filter = filters.get("victim_type_id", None)
                 attacker_npc_filter = filters.get("attacker_npc", 0)
+                
+                victim_matched = False
+                attacker_matched = False
 
                 # Match region_id if present in filters
                 if filter_region_id and filter_region_id != region_id:
@@ -205,66 +208,46 @@ class zKill(commands.Cog):
                 if filter_system_id and filter_system_id != solar_system_id:
                     continue # Skip if system doesn't match
                 
-                # Match victim_group_id using lookup_dict if specified
-                victim_matched = True
+                # Victim Matching
                 if victim_group_id_filter:
                     victim_matched = any(
-                        config.entity_lookup_dict.get(entity.get("ship_type_id"), {}).get("groupID") == victim_group_id_filter 
+                        config.entity_lookup_dict.get(entity.get("ship_type_id"), {}).get("groupID") == victim_group_id_filter
                         for entity in victim
                     )
-                
-                # Match victim_type_id filter directly against ship_type_id
-                if victim_type_id_filter and not any(entity.get("ship_type_id") == victim_type_id_filter for entity in victim):
-                    victim_matched = False
-                
+                if victim_type_id_filter:
+                    victim_matched = victim_matched or any(
+                        entity.get("ship_type_id") == victim_type_id_filter for entity in victim
+                    )
+                if not victim_group_id_filter and not victim_type_id_filter:
+                    # If no victim filters are provided, consider victim matched
+                    victim_matched = True
 
-                # Match attacker_group_id using lookup_dict if specified
-                attacker_matched = True
+                # Attacker Matching
                 if attackers_group_id_filter:
                     attacker_matched = any(
                         config.entity_lookup_dict.get(entity.get("ship_type_id"), {}).get("groupID") == attackers_group_id_filter
                         for entity in attackers
                     )
-                
-                # Match attacker_type_id filter directly against ship_type_id
-                if attackers_type_id_filter and not any(
-                    entity.get("shipy_type_id") == attackers_type_id_filter for entity in attackers
-                ):
-                    attacker_matched = False
-
-                # If apply_to_attacker is and is_npc is set, check attackers for NPCs
-                if attacker_npc_filter == 1 and not any(
-                        attacker.get("faction_id") 
-                        for attacker in attackers
-                    ):
-                        attacker_matched = False
+                if attackers_type_id_filter:
+                    attacker_matched = attacker_matched or any(
+                        entity.get("ship_type_id") == attackers_type_id_filter for entity in attackers
+                    )
+                if attacker_npc_filter == 1:
+                    # Check for NPC attackers
+                    npc_present = any(attacker.get("faction_id") for attacker in attackers)
+                    attacker_matched = attacker_matched and npc_present
+                if not attackers_group_id_filter and not attackers_type_id_filter and attacker_npc_filter == 0:
+                    # If no attacker filters are provided, consider attacker matched
+                    attacker_matched = True
+                    
                 
                 # Check if either victim or attacker matches
-                if victim_matched or attacker_matched:
+                if victim_matched and attacker_matched:
                     matching_channels.append(channel_id)
 
 
         for channel_id in matching_channels:
             await self.send_to_channel(channel_id, killmail)
-
-        # killmail_filters = (
-        #     killmail.get("channel"),
-        #     killmail.get("group_id"),
-        # )
-
-        # # Find channels associated with this filter
-        # channels = [
-        #     channel_id
-        #     for guild_id, guild_config in config.GUILD_SETTINGS.items()
-        #     for channel_id, channel_filters in guild_config.get("killfeed_channels", {}).items()
-        #     if (
-        #         (channel_filters['group_id'] == 0 and channel_filters["websocket_channel"] == killmail_filters[0]) or
-        #         (channel_filters["group_id"] == killmail_filters[1] and channel_filters["websocket_channel"] == killmail_filters[0])
-        #     )
-        # ]
-
-        # for channel_id in channels:
-        #     await self.send_to_channel(channel_id, killmail)
 
     async def send_to_channel(self, channel_id, killmail):
         """Send the killmail to a specific Discord channel."""
