@@ -394,10 +394,10 @@ class zKill(commands.Cog):
                 }
             
             if current_victim_entity_id != 0:
-                current_settings["killfeed_channels"][str(channel.id)][f"{victim_filter.lower()}_id"]=current_victim_entity_id
+                current_settings["killfeed_channels"][str(channel.id)][f"victim_{victim_filter.lower()}_id"]=current_victim_entity_id
 
             if current_attacker_entity_id != 0:
-                current_settings["killfeed_channels"][str(channel.id)][f"{attacker_filter.lower()}_id"]=current_attacker_entity_id
+                current_settings["killfeed_channels"][str(channel.id)][f"attacker_{attacker_filter.lower()}_id"]=current_attacker_entity_id
 
             config.update_settings(guild_id, current_settings)
             # await self.update_subscriptions()
