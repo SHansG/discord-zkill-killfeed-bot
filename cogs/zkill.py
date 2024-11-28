@@ -13,18 +13,12 @@ class zKill(commands.Cog):
     def __init__(self, bot: commands.Bot) -> None:
         self.bot=bot
         self.websocket_url = config.websocket_url
-        # self.guild_configs = {}
         self.subscription_counts = defaultdict(int) # tracks subscription usage counts
         self.subscription_channels = defaultdict(list) # maps subscriptions to channels
         self.killmail_queue = asyncio.Queue()
-        # start tasks for websocket listener and queue processor
         self.websocket = None
         self.payload = {"action":"sub", "channel":"killstream"}
 
-        # start tasks
-        # self.loop = asyncio.get_event_loop()
-        # self.loop.create_task(self.websocket_listener())
-        # self.loop.create_task(self.queue_processor())
         self.websocket_task = None # websocket task
         self.queue_task = None # queue processing task
 
@@ -41,7 +35,6 @@ class zKill(commands.Cog):
     @commands.Cog.listener()
     async def on_ready(self):
         """Ensure tasks are started after the bot is fully ready."""
-        # TODO: when you stop debugging autocompletion uncomment this.
         await self.start_tasks()
 
     def cog_unload(self):
@@ -57,23 +50,16 @@ class zKill(commands.Cog):
 
         return True
 
-    # async def cog_before_invoke(self, ctx: commands.Context):
-
     async def cog_command_error(self, ctx: commands.Context, error: commands.CommandError):
         await ctx.send('An error occurred: {}'.format(str(error)))
 
-    
     async def websocket_listener(self):
         """Connect to the WebSocket and listen for data."""
         while True:
                 try:
-                    async with websockets.connect(self.websocket_url) as websocket:
+                    async with websockets.connect(self.websocket_url, ping_interval=30) as websocket:
                         self.websocket = websocket
                         print("Connected to WebSocket")
-                        # subscribe with filters
-                        # await self.update_subscriptions()
-                        # TODO: update channels???
-                        #Test payload
                         await self.websocket.send(json.dumps(self.payload))
                         while True:
                             try:
@@ -106,68 +92,6 @@ class zKill(commands.Cog):
             await self.route_killmail(killmail)
 
             self.killmail_queue.task_done()
-
-    # async def update_subscriptions(self):
-    #     """Subscribe to new filters and manage reference counts."""
-    #     # Extract all unique filters from guild configs
-    #     current_filters = {
-    #         (filters["websocket_channel"], filters["group_id"])
-    #         for guild_id, guild_config in config.GUILD_SETTINGS.items()
-    #         for filters in guild_config.get("killfeed_channels", {}).values()
-    #     }
-
-    #     # Unsubscribe from unused filters
-    #     for subscription in list(self.subscription_counts.keys()):
-    #         if subscription not in current_filters:
-    #             await self.unsubscribe(subscription)
-
-    #     # Subscribe to new filters
-    #     for subscription in current_filters:
-    #         if subscription not in self.subscription_counts:
-    #             await self.subscribe(subscription)
-
-    # async def subscribe(self, filters):
-    #     """Send a subscription payload to the WebSocket and increment reference count."""
-    #     if self.websocket:
-    #         payload = {
-    #             "action":"sub",
-    #             "channel":f"{filters[0]}"
-    #         }
-    #         await self.websocket.send(json.dumps(payload))
-    #         self.subscription_counts[filters] += 1
-    #         print(f"Subscribed: {payload}")
-
-    # async def unsubscribe(self, filters):
-    #     """Send an unsubscribe payload to the WebSocket and decrement reference count."""
-    #     if self.websocket and self.subscription_counts[filters] > 0:
-    #         self.subscription_counts[filters] -= 1
-    #         if self.subscription_counts[filters] == 0:
-    #             payload = {
-    #                 "action": "unsub",
-    #                 "channel": f"{filters[0]}"
-    #             }
-    #             await self.websocket.send(json.dumps(payload))
-    #             del self.subscription_counts[filters]
-    #             print(f"Unsubscribed: {payload}")
-
-    # async def update_channel_filters(self):
-    #     """Updates adds/remove channel with filters and manage reference counts."""
-    #     # Extract all unique filters from guild configs
-    #     current_filters = {
-    #         (filters["alliance_id"], filters['character_id'], filters['ship_type_id'], filters["group_id"], filters["is_npc"], filters["is_attacker"])
-    #         for guild_id, guild_config in config.GUILD_SETTINGS.items()
-    #         for filters in guild_config.get("killfeed_channels", {}).values()
-    #     }
-
-    #     # Unsubscribe from unused filters
-    #     for subscription in list(self.subscription_counts.keys()):
-    #         if subscription not in current_filters:
-    #             await self.unsubscribe(subscription)
-
-    #     # Subscribe to new filters
-    #     for subscription in current_filters:
-    #         if subscription not in self.subscription_counts:
-    #             await self.subscribe(subscription)
 
     async def route_killmail(self, killmail):
         """Route received killmail to appropriate Discord channels."""
@@ -236,6 +160,10 @@ class zKill(commands.Cog):
                     # Check for NPC attackers
                     npc_present = any(attacker.get("faction_id") for attacker in attackers)
                     attacker_matched = attacker_matched and npc_present
+                if attacker_npc_filter == 1 and not attackers_group_id_filter and not attackers_type_id_filter:
+                    # Check for NPC attackers
+                    npc_present = any(attacker.get("faction_id") for attacker in attackers)
+                    attacker_matched = npc_present
                 if not attackers_group_id_filter and not attackers_type_id_filter and attacker_npc_filter == 0:
                     # If no attacker filters are provided, consider attacker matched
                     attacker_matched = True
