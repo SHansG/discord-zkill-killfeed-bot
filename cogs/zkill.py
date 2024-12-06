@@ -110,7 +110,7 @@ class zKill(commands.Cog):
                 # Determine the target for filtering (attacker or victim)
                 filter_region_id = filters.get("region_id")
                 filter_constellation_id = filters.get("constellation_id")
-                filter_system_id = filters.get("solar_system_id")
+                filter_system_id = filters.get("system_id")
                 attackers_group_id_filter = filters.get("attacker_group_id", None)
                 attackers_type_id_filter = filters.get("attacker_type_id", None)
                 victim_group_id_filter = filters.get("victim_group_id", None)
@@ -160,10 +160,12 @@ class zKill(commands.Cog):
                     # Check for NPC attackers
                     npc_present = any(attacker.get("faction_id") for attacker in attackers)
                     attacker_matched = attacker_matched and npc_present
+
                 if attacker_npc_filter == 1 and not attackers_group_id_filter and not attackers_type_id_filter:
                     # Check for NPC attackers
                     npc_present = any(attacker.get("faction_id") for attacker in attackers)
                     attacker_matched = npc_present
+
                 if not attackers_group_id_filter and not attackers_type_id_filter and attacker_npc_filter == 0:
                     # If no attacker filters are provided, consider attacker matched
                     attacker_matched = True
