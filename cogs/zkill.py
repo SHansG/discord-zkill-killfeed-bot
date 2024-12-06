@@ -316,10 +316,11 @@ class zKill(commands.Cog):
         current_settings = config.get_settings(guild_id)
 
         if str(channel.id) not in current_settings["killfeed_channels"]:
-            current_settings["killfeed_channels"][str(channel.id)] = {
-                    f"{location_filter.lower()}_id":current_location_id,
-                    "attacker_npc": current_attacker_npc
-                }
+            
+            current_settings["killfeed_channels"][str(channel.id)] = { "attacker_npc": current_attacker_npc }
+
+            if current_location_id != 0:
+                current_settings["killfeed_channels"][str(channel.id)][f"{location_filter.lower()}_id"] = current_location_id
             
             if current_victim_entity_id != 0:
                 current_settings["killfeed_channels"][str(channel.id)][f"victim_{victim_filter.lower()}_id"]=current_victim_entity_id
@@ -333,6 +334,7 @@ class zKill(commands.Cog):
         else:
             await interaction.response.send_message(f'Text channel {channel.mention} has already been assigned for killfeed broadcasting.')
 
+        # TODO: update filters for channel
 
         # if str(channel.id) not in current_settings["killfeed_channels"]:
         #     current_settings["killfeed_channels"][str(channel.id)] = {

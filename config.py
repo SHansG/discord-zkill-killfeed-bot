@@ -38,6 +38,7 @@ filter_location_type_dict = {
     "Region":region_id_dict,
     "Constellation":constellation_id_dict,
     "System":system_id_dict,
+    "None": {"No Filter": 0}
 }
 
 filter_entity_type_dict = {
