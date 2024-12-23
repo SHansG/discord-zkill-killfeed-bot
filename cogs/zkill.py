@@ -186,8 +186,6 @@ class zKill(commands.Cog):
         channel = await self.bot.fetch_channel(channel_id)
         message = killmail['zkb']['url']
         if channel:
-            # print(f"killmail url: {killmail['url']} was sent to channel: {channel_id}")
-            # await channel.send(killmail["url"])
             print(f"killmail url: {message} was sent to channel: {channel_id}")
             await channel.send(message)
         else:

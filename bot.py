@@ -33,42 +33,6 @@ class Miku(commands.Bot):
         config.delete_settings(guild.id)
         print(f"The bot was removed from {guild.name} server (ID: {guild.id})")
 
-    # async def on_guild_channel_delete(self, channel):
-    #     """Triggered when a channel is deleted from a guild."""
-    #     print(f"Channel '{channel.name}' was deleted from guild '{channel.guild.name}'")\
-        
-    #     if channel.guild.id in config.GUILD_SETTINGS:
-    #         guild_settings = config.GUILD_SETTINGS[channel.guild.id]
-    #         # killfeed_channels = guild_settings.get("killfeed_channel", {})
-
-    #         if str(channel.id) in guild_settings["killfeed_channels"]:
-    #             del guild_settings["killfeed_channels"][str(channel.id)]
-    #             config.update_settings(channel.guild.id, guild_settings)
-
-    # async def validate_killfeed_channels(self):
-    #     """Validate killfeed channels across all guilds on startup."""
-    #     for guild in self.guilds:
-    #         if guild.id in config.GUILD_SETTINGS:
-    #             guild_settings = config.GUILD_SETTINGS[guild.id]
-    #             killfeed_channels = guild_settings.get("killfeed_channels", {})
-    #             to_remove = []
-
-    #             # Check if each channel in killfeed_channels exists in the guild
-    #             for channel_id in list(killfeed_channels.keys()):
-    #                 channel = guild.get_channel(int(channel_id))  # Check if channel exists
-    #                 if not channel:  # If the channel is None, it doesn't exist
-    #                     to_remove.append(channel_id)
-
-    #             # Remove non-existent channels from the settings
-    #             for channel_id in to_remove:
-    #                 del killfeed_channels[channel_id]
-    #                 print(f"Removed non-existent channel {channel_id} from killfeed settings for guild {guild.name}")
-
-    #             # Update the settings if changes were made
-    #             if to_remove:
-    #                 config.update_settings(guild.id, guild_settings)
-    #                 print(f"Updated settings for guild {guild.name}")
-
     async def setup_hook(self):
         for module in os.listdir(f"{config.ROOT_DIR}/cogs"):
             if module.endswith('.py'):
@@ -96,7 +60,6 @@ class Miku(commands.Bot):
 
         config.tokens.client_id = self.user.id
         config.load_guilds_settings(self.get_guilds_list())
-        # await self.validate_killfeed_channels()
         
 
 class CommandCheck(discord.app_commands.CommandTree):

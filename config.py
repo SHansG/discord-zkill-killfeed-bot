@@ -163,5 +163,3 @@ def init() -> None:
     json = open_json(settings_file_path)
     if json is not None:
         settings = Settings(json)
-    # print(GUILD_SETTINGS)
-    # print(settings)
