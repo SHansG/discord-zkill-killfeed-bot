@@ -11,8 +11,7 @@ settings_file_path = os.path.join(ROOT_DIR, "settings.json")
 solarsystems_path = f'{ROOT_DIR}/res/'
 
 # URLs
-# websocket_url = f"wss://zkillboard.com/websocket/"
-websocket_url = "ws://localhost:8765"
+websocket_url = f"wss://zkillboard.com/websocket/"
 
 # dicts
 # TODO: assign data to dicts using function
@@ -59,16 +58,6 @@ filter_attacker_npc_dict = {
     "Yes": 1,
     "No": 0
 }
-
-# filter_apply_to_attacker_dict = {
-#     "Yes": 1,
-#     "No": 0
-# }
-
-# filter_is_npc_dict = {
-#     "Yes": 1,
-#     "No": 0
-# }
 
 # location lookup dict for filter logic in zkill cog
 merged_regions_constellations_systems_df = pd.read_csv(f"{ROOT_DIR}/res/map_regions_constellations_systems_merged.csv", index_col=0)
@@ -148,10 +137,6 @@ def add_settings(guild_id: int) -> bool:
     return result.acknowledged
 
 def delete_settings(guild_id: int) -> bool:
-    # settings_dict = get_settings(guild_id)
-    # if settings_dict is None:
-    #     return
-    
     GUILD_SETTINGS.pop(guild_id)
     result = SETTINGS_DB.delete_one({"_id":guild_id})
     return result.deleted_count > 0
