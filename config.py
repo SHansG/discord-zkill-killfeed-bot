@@ -11,7 +11,8 @@ settings_file_path = os.path.join(ROOT_DIR, "settings.json")
 solarsystems_path = f'{ROOT_DIR}/res/'
 
 # URLs
-websocket_url = f"wss://zkillboard.com/websocket/"
+# websocket_url = f"wss://zkillboard.com/websocket/"
+websocket_url = "ws://localhost:8765"
 
 # dicts
 # TODO: assign data to dicts using function
@@ -33,6 +34,13 @@ group_id_dict = id_group_df.set_index('groupName').to_dict()['groupID']
 
 id_type_df = pd.read_csv(f'{ROOT_DIR}/res/types_filtered_final.csv')
 type_id_dict = id_type_df.set_index('typeName').to_dict()['typeID']
+
+# officer npc group_ids
+# this is probably temporary solution but I dont have better idea how to filter
+# officer npcs due to them not having "faction_id" in the killmail jsons
+special_npc_group_id_df = pd.read_csv(f'{ROOT_DIR}/res/special_npc_group_ids.csv', index_col=0)
+special_npc_group_id_list = special_npc_group_id_df['groupID'].to_list()
+
 # print(type_id_dict)
 filter_location_type_dict = {
     "Region":region_id_dict,
@@ -67,7 +75,7 @@ merged_regions_constellations_systems_df = pd.read_csv(f"{ROOT_DIR}/res/map_regi
 location_lookup_dict = merged_regions_constellations_systems_df.set_index('solarSystemID').to_dict(orient='index')
 
 # entity lookup dict for filter logic in zkill cog
-merged_groups_types_df = pd.read_csv(f"{ROOT_DIR}/res/merged_groupID_typeID.csv")
+merged_groups_types_df = pd.read_csv(f"{ROOT_DIR}/res/merged_groupID_typeID.csv", index_col=0)
 entity_lookup_dict = merged_groups_types_df.set_index('typeID').to_dict(orient='index')
 
 #--- API Keys ---

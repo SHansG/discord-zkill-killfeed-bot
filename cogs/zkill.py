@@ -138,10 +138,12 @@ class zKill(commands.Cog):
                         config.entity_lookup_dict.get(entity.get("ship_type_id"), {}).get("groupID") == victim_group_id_filter
                         for entity in victim
                     )
+
                 if victim_type_id_filter:
                     victim_matched = victim_matched or any(
                         entity.get("ship_type_id") == victim_type_id_filter for entity in victim
                     )
+
                 if not victim_group_id_filter and not victim_type_id_filter:
                     # If no victim filters are provided, consider victim matched
                     victim_matched = True
@@ -152,10 +154,12 @@ class zKill(commands.Cog):
                         config.entity_lookup_dict.get(entity.get("ship_type_id"), {}).get("groupID") == attackers_group_id_filter
                         for entity in attackers
                     )
+                    
                 if attackers_type_id_filter:
                     attacker_matched = attacker_matched or any(
                         entity.get("ship_type_id") == attackers_type_id_filter for entity in attackers
                     )
+
                 if attacker_npc_filter == 1:
                     # Check for NPC attackers
                     npc_present = any(attacker.get("faction_id") for attacker in attackers)
@@ -165,6 +169,13 @@ class zKill(commands.Cog):
                     # Check for NPC attackers
                     npc_present = any(attacker.get("faction_id") for attacker in attackers)
                     attacker_matched = npc_present
+
+                # this check needs to be here for getting officer or other special npc killmails...
+                # for some reason "special npcs (officers, lowsec mordus, clone soldiers)" 
+                # dont have "faction_id" in killmail jsons
+                # (any other special npc group needs to be added to the .csv file in res/)
+                if attacker_npc_filter == 1 and attackers_group_id_filter in config.special_npc_group_id_list:
+                    attacker_matched = True
 
                 if not attackers_group_id_filter and not attackers_type_id_filter and attacker_npc_filter == 0:
                     # If no attacker filters are provided, consider attacker matched
@@ -336,19 +347,6 @@ class zKill(commands.Cog):
         else:
             await interaction.response.send_message(f'Text channel {channel.mention} has already been assigned for killfeed broadcasting.')
 
-        # TODO: update filters for channel
-
-        # if str(channel.id) not in current_settings["killfeed_channels"]:
-        #     current_settings["killfeed_channels"][str(channel.id)] = {
-        #             "websocket_channel": f"{filter_type}:{type_id}",
-        #             "group_id": group_id
-        #         }
-
-        #     config.update_settings(guild_id, current_settings)
-        #     # await self.update_subscriptions()
-        #     await interaction.response.send_message(f"```Text channel {channel.mention} has been assigned for killfeed broadcasting with parameters:\nfilter_type: {filter_type}\ntype_name:{current_filter_type}\ngroup_name:{config.id_group_dict.get(group_id)}```")
-        # else:
-        #     await interaction.response.send_message(f'Text channel {channel.mention} has already been assigned for killfeed broadcasting with parameters: ...')
 
     @app_commands.command(name='reset')
     @commands.has_permissions(manage_guild=True)
@@ -365,11 +363,6 @@ class zKill(commands.Cog):
         else:
             await interaction.response.send_message(f"Channel {channel.mention} is not configured as a killfeed channel.")
 
-    # @commands.command(name='', aliases=[''])
-    # @commands.has_guild_permissions(manage_guild=True)
-    # async def watchlist(self, ctx: commands.Context) -> None:
-    #     """Pick text channel where watchlisted characters killfeed will be pushed"""
-    #     pass
 
 
 async def setup(bot: commands.Bot) -> None:

@@ -3,3 +3,5 @@ old
 raw
 __pycache__
 .env
+*.json
+testWS.py
