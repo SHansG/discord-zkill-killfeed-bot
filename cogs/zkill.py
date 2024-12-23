@@ -160,27 +160,18 @@ class zKill(commands.Cog):
                         entity.get("ship_type_id") == attackers_type_id_filter for entity in attackers
                     )
 
-                if attacker_npc_filter == 1:
-                    # Check for NPC attackers
-                    npc_present = any(attacker.get("faction_id") for attacker in attackers)
-                    attacker_matched = attacker_matched and npc_present
-
-                if attacker_npc_filter == 1 and not attackers_group_id_filter and not attackers_type_id_filter:
-                    # Check for NPC attackers
-                    npc_present = any(attacker.get("faction_id") for attacker in attackers)
-                    attacker_matched = npc_present
-
-                # this check needs to be here for getting officer or other special npc killmails...
-                # for some reason "special npcs (officers, lowsec mordus, clone soldiers)" 
-                # dont have "faction_id" in killmail jsons
-                # (any other special npc group needs to be added to the .csv file in res/)
-                if attacker_npc_filter == 1 and attackers_group_id_filter in config.special_npc_group_id_list:
-                    attacker_matched = True
-
-                if not attackers_group_id_filter and not attackers_type_id_filter and attacker_npc_filter == 0:
+                if not attackers_group_id_filter and not attackers_type_id_filter:
                     # If no attacker filters are provided, consider attacker matched
                     attacker_matched = True
+
+                if attacker_npc_filter == 1:
+                    # Check for NPC attackers
+                    npc_present = any(entity.get("faction_id") for entity in attackers)
+                    special_npc_present = any(config.entity_lookup_dict.get(entity.get("ship_type_id"), {}).get("groupID") in config.special_npc_group_id_list for entity in attackers)
+                    attacker_matched = attacker_matched and (npc_present or special_npc_present)
                     
+                if attacker_npc_filter == 0:
+                    attacker_matched=True
                 
                 # Check if either victim or attacker matches
                 if victim_matched and attacker_matched:
