@@ -11,8 +11,7 @@ settings_file_path = os.path.join(ROOT_DIR, "settings.json")
 solarsystems_path = f'{ROOT_DIR}/res/'
 
 # URLs
-# websocket_url = f"wss://zkillboard.com/websocket/"
-websocket_url = "ws://localhost:8765"
+websocket_url = f"wss://zkillboard.com/websocket/"
 
 # dicts
 # TODO: assign data to dicts using function
